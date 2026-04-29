@@ -26,6 +26,7 @@ export type Post = {
 
 export const siteConfig = {
   name: "Alex Merricks Designs",
+  shortName: "AMD",
   tagline: "Portfolio, store, and studio notes for design-led products.",
   description:
     "A home for bringing together design experiments, products, writing, and side-business ideas into one public website.",
