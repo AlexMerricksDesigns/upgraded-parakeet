@@ -25,6 +25,11 @@ Most starter copy, project cards, product placeholders, and journal entries live
 in [`content/site.ts`](content/site.ts). This keeps early content changes in one
 place while the site structure is still taking shape.
 
+## Project workflow
+
+See [`docs/workflow.md`](docs/workflow.md) for the plain-English Git/GitHub
+routine for working across mobile, laptop, main PC, and cloud-agent sessions.
+
 ## Available scripts
 
 - `npm run dev`: start the development server
