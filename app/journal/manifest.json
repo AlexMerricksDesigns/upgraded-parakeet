@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "the-problem-of-value",
+    "href": "/work/crypto/journal/the-problem-of-value",
+    "title": "The Problem of Value",
+    "date": "2 Apr 2021",
+    "year": "2021",
+    "summary": "Idle thoughts after watching a video about Bitcoin, value, and relational pricing.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/crypto/journal/crypto-art-value-paradigm",
+        "label": "Cryptoart essay",
+        "eyebrow": "Journal"
+      },
+      {
+        "href": "/work/crypto",
+        "label": "On-chain photography",
+        "eyebrow": "Work"
+      }
+    ]
+  },
+  {
+    "slug": "crypto-art-value-paradigm",
+    "href": "/work/crypto/journal/crypto-art-value-paradigm",
+    "title": "Cryptoart, Value, and a Cultural Paradigm Shift",
+    "date": "10 Mar 2021",
+    "year": "2021",
+    "summary": "NFTs, physical works, and the shifting structure of how art holds value.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/crypto/journal/the-problem-of-value",
+        "label": "The Problem of Value",
+        "eyebrow": "Journal"
+      },
+      {
+        "href": "/work/crypto",
+        "label": "On-chain photography",
+        "eyebrow": "Work"
+      }
+    ]
+  },
+  {
+    "slug": "nationalism",
+    "href": "/work/philosophy/journal/nationalism",
+    "title": "Nationalism, or how to love your nation",
+    "date": "2021",
+    "year": "2021",
+    "summary": "Notes on nationhood, moral order, and collective identity.",
+    "status": "published",
+    "related": []
+  },
+  {
+    "slug": "god-metaphysical-reality",
+    "href": "/work/philosophy/journal/god-metaphysical-reality",
+    "title": "God is a metaphysical reality, not a superhero",
+    "date": "8 Mar 2021",
+    "year": "2021",
+    "summary": "Metaphysics, representation, and what we mean when we speak of God.",
+    "status": "published",
+    "related": []
+  },
+  {
+    "slug": "poverty-of-the-input",
+    "href": "/work/philosophy/journal/poverty-of-the-input",
+    "title": "On the poverty of the input",
+    "date": "2021",
+    "year": "2021",
+    "summary": "Limits of input, models, and what gets left out of systems.",
+    "status": "published",
+    "related": []
+  },
+  {
+    "slug": "strata-judgements-of-god",
+    "href": "/work/philosophy/journal/strata-judgements-of-god",
+    "title": "The Strata are Judgements of God",
+    "date": "25 Feb 2021",
+    "year": "2021",
+    "summary": "Layered judgements, metaphysics, and structural readings of value.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/philosophy/journal/strata-notes",
+        "label": "Strata notes",
+        "eyebrow": "Notes"
+      }
+    ]
+  },
+  {
+    "slug": "strata-notes",
+    "href": "/work/philosophy/journal/strata-notes",
+    "title": "Notes on The Strata are Judgements of God",
+    "date": "2021",
+    "year": "2021",
+    "summary": "Working notes and references for the Strata essay.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/philosophy/journal/strata-judgements-of-god",
+        "label": "The Strata essay",
+        "eyebrow": "Journal"
+      }
+    ]
+  },
+  {
+    "slug": "nature-stars-sky",
+    "href": "/work/philosophy/journal/nature-stars-sky",
+    "title": "Nature, Stars, and the Sky",
+    "date": "2021",
+    "year": "2021",
+    "summary": "Photographic notes on landscape, night sky, and observation.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/crypto",
+        "label": "Photography work",
+        "eyebrow": "Work"
+      }
+    ]
+  },
+  {
+    "slug": "ur-antifascism",
+    "href": "/work/philosophy/journal/ur-antifascism",
+    "title": "Ur-AntiFascism",
+    "date": "2021",
+    "year": "2021",
+    "summary": "Research notes on antifascism and historical lineages.",
+    "status": "published",
+    "related": []
+  },
+  {
+    "slug": "crypto-art-research",
+    "href": "/work/crypto/journal/crypto-art-research",
+    "title": "Crypto (research)",
+    "date": "2021",
+    "year": "2021",
+    "summary": "Research fragments on crypto-art and tokenisation.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/crypto/journal/crypto-art-value-paradigm",
+        "label": "Cryptoart essay",
+        "eyebrow": "Journal"
+      }
+    ]
+  },
+  {
+    "slug": "firmament-godhead",
+    "href": "/work/philosophy/journal/firmament-godhead",
+    "title": "Firmament and the Godhead",
+    "date": "2020",
+    "year": "2020",
+    "summary": "Extended essay on firmament, metaphysics, and the Godhead.",
+    "status": "published",
+    "related": []
+  },
+  {
+    "slug": "universities",
+    "href": "/work/philosophy/journal/universities",
+    "title": "We Need to Talk about the Universities",
+    "date": "2020",
+    "year": "2020",
+    "summary": "Critique of universities, credentials, and institutional learning.",
+    "status": "published",
+    "related": []
+  },
+  {
+    "slug": "rhizome-dota-ti9",
+    "href": "/work/philosophy/journal/rhizome-dota-ti9",
+    "title": "Researching via Rhizomatisation (Dota 2)",
+    "date": "2019",
+    "year": "2019",
+    "summary": "Rhizomatic research through Dota 2 and The International 9.",
+    "status": "published",
+    "related": []
+  },
+  {
+    "slug": "poems-blink",
+    "href": "/work/philosophy/journal/poems-blink",
+    "title": "Poems — Blink",
+    "date": "2020",
+    "year": "2020",
+    "summary": "Poetry from the Blink sequence.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/philosophy/journal/poems-fractionation",
+        "label": "Fractionation",
+        "eyebrow": "Poetry"
+      }
+    ]
+  },
+  {
+    "slug": "poems-fractionation",
+    "href": "/work/philosophy/journal/poems-fractionation",
+    "title": "Poems — Fractionation",
+    "date": "2020",
+    "year": "2020",
+    "summary": "Poetry from the Fractionation sequence.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/philosophy/journal/poems-blink",
+        "label": "Blink",
+        "eyebrow": "Poetry"
+      }
+    ]
+  },
+  {
+    "slug": "archive-editing-2025",
+    "href": "/work/photography/journal/archive-editing-2025",
+    "title": "Archive editing (2025)",
+    "date": "2024–2025",
+    "year": "2025",
+    "summary": "Consolidation, Bristol trip edits, benches revisits, and cross-practice links with Plotter and Nursery.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/photography",
+        "label": "Photography category",
+        "eyebrow": "Work"
+      },
+      {
+        "href": "/work/photography/projects/brighton-by-bench",
+        "label": "Brighton by Bench",
+        "eyebrow": "Project"
+      },
+      {
+        "href": "/work/plotter",
+        "label": "Plotter",
+        "eyebrow": "Work"
+      }
+    ]
+  },
+  {
+    "slug": "polargraph-process-notes",
+    "href": "/work/plotter/journal/polargraph-process-notes",
+    "title": "Polargraph process notes",
+    "date": "2023–",
+    "year": "2023",
+    "summary": "Build log for the DIY polargraph — cord, gondola, materials, software, and rebuild lessons.",
+    "status": "published",
+    "related": [
+      {
+        "href": "/work/plotter",
+        "label": "Plotter category",
+        "eyebrow": "Work"
+      },
+      {
+        "href": "/work/plotter/projects/plotted-heads",
+        "label": "Plotted heads",
+        "eyebrow": "Project"
+      },
+      {
+        "href": "/work/plotter/products/postcards",
+        "label": "Postcards",
+        "eyebrow": "Shop"
+      }
+    ]
+  }
+]

@@ -4,6 +4,9 @@ out/
 
 .env
 .env*.local
+.env.example
+
+content/crypto/.probe-output/
 
 npm-debug.log*
 yarn-debug.log*
@@ -11,3 +14,21 @@ yarn-error.log*
 pnpm-debug.log*
 
 *.tsbuildinfo
+
+# Cold-storage ingest — not used at runtime (see PROJECT_LAYOUT.md)
+/0consolidating previous attempts content ingest folder/
+# OS / editor noise
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Optional local tooling
+.venv/
+.vercel/
+.eslintcache
+# IDE (optional — omit if you want shared workspace settings)
+.vscode/
+.idea/
+# Public assets folder
+public_originals/
+public/

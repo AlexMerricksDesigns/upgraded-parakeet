@@ -1,0 +1,19 @@
+{
+  "mint": {
+    "handles": ["xanderhizome", "xander.tez"],
+    "tezos": null,
+    "notes": "Run: npm run probe:objkt -- --resolve-mint"
+  },
+  "collect": {
+    "label": "Under Orchard",
+    "tezos": "tz1NfdmYN9vqG7WmBr2bbfPhTc4BA8SjqgRE"
+  },
+  "base": {
+    "evm": "0xa2BA962FAB5f1E1ad25C71Fc81Afe903E825fad8"
+  },
+  "profiles": {
+    "objkt": "https://objkt.com/profile/{tezos}",
+    "teia": "https://teia.art/{tezos}",
+    "fxhashTezos": "https://www.fxhash.xyz/u/{tezos}"
+  }
+}

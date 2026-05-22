@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "plotted-heads",
+    "href": "/work/plotter/projects/plotted-heads",
+    "title": "Plotted heads series",
+    "year": "2021",
+    "summary": "An evolving plotter-led portrait series where repeated marks let faces emerge through drift, density, and misalignment.",
+    "image": "/work/plotted-heads/plotter-drawings001.jpg",
+    "tags": ["Emergent forms", "Concept", "Plotter"],
+    "status": "published"
+  },
+  {
+    "slug": "meat-hammer",
+    "href": "/work/metalworking/projects/meat-hammer",
+    "title": "Meat hammer (recycled aluminium)",
+    "year": "2018",
+    "summary": "A tenderising hammer cast from recycled drinks cans with a reclaimed wood handle.",
+    "image": "/work/meat-hammer/hero.jpg",
+    "tags": ["Making", "Metal", "Reuse"],
+    "status": "published"
+  },
+  {
+    "slug": "needle-file-handle",
+    "href": "/work/woodworking/projects/needle-file-handle",
+    "title": "Needle file handle",
+    "year": "2018",
+    "summary": "A hand-carved wooden handle for needle files, repaired with leather and glue.",
+    "image": "/work/needle-file-handle/hero.gif",
+    "tags": ["Making", "Wood", "Tools"],
+    "status": "published"
+  },
+  {
+    "slug": "shelving-a-level",
+    "href": "/work/woodworking/projects/shelving-a-level",
+    "title": "A-Level shelving",
+    "year": "2016",
+    "summary": "Shelving unit built from a reclaimed wardrobe with dovetailed and dowelled joints.",
+    "image": "/work/shelving-a-level/Shelves2.jpg",
+    "tags": ["Making", "Furniture", "Wood"],
+    "status": "published"
+  },
+  {
+    "slug": "design-philosophy",
+    "href": "/work/philosophy/projects/design-philosophy",
+    "title": "Towards a Philosophy of Design",
+    "year": "2020",
+    "summary": "Circular materials, reuse, and a revolution in how design sources production.",
+    "image": null,
+    "tags": ["Design", "Philosophy", "Materials"],
+    "status": "published"
+  },
+  {
+    "slug": "knife-poster",
+    "href": "/work/woodworking/projects/knife-poster",
+    "title": "Knife prop poster",
+    "year": "2020",
+    "summary": "Final-year studio proposition poster exploring how people keep the tools they own.",
+    "image": "/work/knife-poster/poster.png",
+    "tags": ["Design", "Poster", "University"],
+    "status": "published"
+  },
+  {
+    "slug": "designing-dope",
+    "href": "/work/philosophy/projects/designing-dope",
+    "title": "Designing Dope",
+    "year": "2020",
+    "summary": "Dissertation on novel grown materials, cannabis, hemp, and producing from the natural and artificial.",
+    "image": "/work/designing-dope/cover.jpg",
+    "tags": ["Design", "Dissertation", "Materials"],
+    "status": "published"
+  },
+  {
+    "slug": "liminal-design",
+    "href": "/work/philosophy/projects/liminal-design",
+    "title": "Liminal Design",
+    "year": "2020",
+    "summary": "Dissertation on Kuhn, paradigm shifts, and the pre-liminal space before design revolutions.",
+    "image": "/work/liminal-design/cover.png",
+    "tags": ["Design", "Dissertation", "Theory"],
+    "status": "published"
+  },
+  {
+    "slug": "brighton-by-bench",
+    "href": "/work/photography/projects/brighton-by-bench",
+    "title": "Brighton by Bench",
+    "year": "2022",
+    "summary": "100 Tezos tokens — benches as pause and permission, from the university project An Assemblage; for sitting.",
+    "image": "/work/photography/series-brighton-by-bench.jpg",
+    "tags": ["Tezos", "Benches", "Brighton"],
+    "status": "published"
+  },
+  {
+    "slug": "lightworms",
+    "href": "/work/photography/projects/lightworms",
+    "title": "Lightworms",
+    "year": "2022",
+    "summary": "50 Tezos tokens — pond light, larvae glow, and water-surface abstraction.",
+    "image": "/work/photography/series-lightworms.jpg",
+    "tags": ["Tezos", "Light", "Pond"],
+    "status": "published"
+  },
+  {
+    "slug": "india-2016",
+    "href": "/work/photography/projects/india-2016",
+    "title": "India 2016 archive",
+    "year": "2016",
+    "summary": "First Canon 400D journey — Agra, Taj Mahal region, architecture, travel, and cultural scenes.",
+    "image": "/work/photography/series-india-2016.jpg",
+    "tags": ["India", "Travel", "Canon 400D"],
+    "status": "published"
+  },
+  {
+    "slug": "drawing-studio",
+    "href": "/work/photography/projects/drawing-studio",
+    "title": "Drawing studio",
+    "year": "2018",
+    "summary": "Projector-led drawing experiments, projections, and layered sections.",
+    "image": "/work/drawing-studio/_MG_5154.jpg",
+    "tags": ["Drawing", "Studio", "Projection"],
+    "status": "published"
+  },
+  {
+    "slug": "painting-studio",
+    "href": "/work/photography/projects/painting-studio",
+    "title": "Painting studio",
+    "year": "2019",
+    "summary": "Painting and macro photography studies from the studio blog.",
+    "image": "/work/painting-studio/_MG_4784.jpg",
+    "tags": ["Painting", "Studio", "Photography"],
+    "status": "published"
+  },
+  {
+    "slug": "ai-image-upscaling",
+    "href": "/work/pc-networks/projects/ai-image-upscaling",
+    "title": "AI image generation and upscaling",
+    "year": "2021",
+    "summary": "Experiments with AI image generation, manipulation, and upscaling workflows.",
+    "image": null,
+    "tags": ["AI", "Digital", "Experiment"],
+    "status": "published"
+  },
+  {
+    "slug": "theories-thinking-design",
+    "href": "/work/philosophy/projects/theories-thinking-design",
+    "title": "Theories on Thinking about Design",
+    "year": "2020",
+    "summary": "Extended notes on how we think about design practice and theory.",
+    "image": null,
+    "tags": ["Design", "Theory", "Writing"],
+    "status": "published"
+  },
+  {
+    "slug": "frame-animation-series",
+    "href": "/work/film/projects/frame-animation-series",
+    "title": "Frame animation series",
+    "year": "2020",
+    "summary": "Numbered video chapters exploring frame animation and narrative fragments.",
+    "image": null,
+    "tags": ["Video", "Animation", "Series"],
+    "status": "published"
+  }
+]

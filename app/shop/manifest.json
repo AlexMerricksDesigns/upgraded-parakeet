@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "postcards",
+    "href": "/work/plotter/products/postcards",
+    "name": "Postcard Series (6-card set)",
+    "status": "Prototype",
+    "summary": "A small edition set pulled from derivations and detours in image-making.",
+    "image": "/shop/postcards/IMG_5206.jpg",
+    "price": "TBC",
+    "format": "Physical",
+    "published": true
+  },
+  {
+    "slug": "limited-prints",
+    "href": "/work/photography/products/limited-prints",
+    "name": "Limited edition prints",
+    "status": "Coming soon",
+    "summary": "Signed physical prints from key works — Brighton by Bench, archive selects, and atmospheric editions.",
+    "image": "/work/photography/shop-limited-prints.jpg",
+    "price": "TBC",
+    "format": "Physical",
+    "published": true
+  },
+  {
+    "slug": "digital-editions",
+    "href": "/work/crypto/products/digital-editions",
+    "name": "Digital editions",
+    "status": "Coming soon",
+    "summary": "Shop shelf for on-chain editions — portfolio on /work/crypto; wallet and checkout later.",
+    "image": "/work/crypto/banner.jpg",
+    "price": "TBC",
+    "format": "Digital",
+    "published": true
+  }
+]

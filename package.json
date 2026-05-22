@@ -7,7 +7,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "catalog": "node scripts/build-catalog.mjs",
+    "republish:setup": "node scripts/republish-setup.mjs",
+    "ingest:cleanup": "node scripts/cleanup-ingest.mjs",
+    "assets:optimize": "node scripts/optimize-assets.mjs",
+    "assets:optimize:all": "node scripts/optimize-assets.mjs --scope=all",
+    "probe:objkt": "node scripts/chain/probe-objkt.mjs",
+    "probe:fxhash": "node scripts/chain/probe-fxhash.mjs",
+    "probe:base": "node scripts/chain/probe-base.mjs"
   },
   "repository": {
     "type": "git",
@@ -26,14 +34,8 @@
     "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.4",
-    "@types/node": "^25.6.0",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.4",
-    "postcss": "^8.5.12",
-    "tailwindcss": "^4.2.4",
-    "typescript": "^6.0.3"
+    "sharp": "^0.34.5"
   }
 }
