@@ -2,7 +2,7 @@
  * Work category threads — registry, paths, Explorer nav, breadcrumbs.
  *
  * URLs: /work/<category>/{projects|journal|products}/<slug>
- * Assets: public/work/<slug>/ or public/work/<category>/
+ * Assets: public/work/<category>/projects|products|journal/<slug>/ (see app/assets/README.md)
  */
 
 import journalManifest from "@/app/journal/manifest.json";
@@ -14,46 +14,45 @@ import {
   productPath,
   projectPath,
 } from "@/lib/work-paths";
-import { workAsset } from "@/lib/assets";
 
-export { WORK_CATEGORIES } from "./categories-data.js";
-import { WORK_CATEGORIES } from "./categories-data.js";
+export { WORK_CATEGORIES, flattenCategorySlugs } from "./categories-data.js";
+import { WORK_CATEGORIES, flattenCategorySlugs } from "./categories-data.js";
 
-/** @deprecated use categoryPath(id) */
+/** @param {string|null|undefined} value */
+function manifestImage(value) {
+  return value && value !== "[Placeholder image]" ? value : null;
+}
+
+/** Category with flattened slug arrays (backward-compatible shape). */
 export function getWorkCategory(id) {
   const cat = WORK_CATEGORIES.find((c) => c.id === id);
   if (!cat) return undefined;
-  return { ...cat, route: categoryPath(cat.id) };
+  const flat = flattenCategorySlugs(cat);
+  return { ...cat, ...flat, route: categoryPath(cat.id) };
 }
 
 export const WORK_COLLECTION_IDS = WORK_CATEGORIES.map((c) => c.id);
 
-/** Custom project pages (not served by [category]/projects/[slug]). */
-export const WORK_STATIC_PROJECT_SLUGS = [
-  "plotted-heads",
-  "brighton-by-bench",
-  "lightworms",
-  "india-2016",
-];
+function findCategoryIdForSlug(slug, field) {
+  for (const cat of WORK_CATEGORIES) {
+    for (const sub of cat.subsections ?? []) {
+      if (sub[field]?.includes(slug)) return cat.id;
+    }
+    if (field === "slugs" && cat.id === slug) return cat.id;
+  }
+  return undefined;
+}
 
 export function getCategoryForWorkSlug(slug) {
-  return getWorkCategory(
-    WORK_CATEGORIES.find(
-      (c) => c.slugs.includes(slug) || c.id === slug
-    )?.id
-  );
+  return getWorkCategory(findCategoryIdForSlug(slug, "slugs"));
 }
 
 export function getCategoryForJournalSlug(slug) {
-  return getWorkCategory(
-    WORK_CATEGORIES.find((c) => c.journalSlugs?.includes(slug))?.id
-  );
+  return getWorkCategory(findCategoryIdForSlug(slug, "journalSlugs"));
 }
 
 export function getCategoryForProductSlug(slug) {
-  return getWorkCategory(
-    WORK_CATEGORIES.find((c) => c.productSlugs?.includes(slug))?.id
-  );
+  return getWorkCategory(findCategoryIdForSlug(slug, "productSlugs"));
 }
 
 function resolveWork(slug) {
@@ -79,7 +78,7 @@ export function manifestToProjectTiles(categoryId, slugs) {
       summary: p.summary,
       href: projectPath(categoryId, p.slug),
       external: false,
-      image: p.image,
+      image: manifestImage(p.image),
       platform: "Project",
     }));
 }
@@ -111,17 +110,51 @@ export function productToTiles(categoryId, slugs) {
       summary: p.summary,
       href: productPath(categoryId, p.slug),
       external: false,
-      image: p.image,
+      image: manifestImage(p.image),
       platform: "Product",
     }));
 }
 
-/** Thread sections for a category homepage. */
+function subsectionToSection(categoryId, sub) {
+  const groups = [];
+  const projects = manifestToProjectTiles(categoryId, sub.slugs ?? []);
+  const journals = journalToTiles(categoryId, sub.journalSlugs ?? []);
+  const products = productToTiles(categoryId, sub.productSlugs ?? []);
+
+  if (projects.length) {
+    groups.push({ id: "projects", title: "Projects", items: projects });
+  }
+  if (journals.length) {
+    groups.push({ id: "journal", title: "Journal", items: journals });
+  }
+  if (products.length) {
+    groups.push({ id: "products", title: "Products", items: products });
+  }
+
+  if (!groups.length) return null;
+
+  return {
+    id: sub.id,
+    title: sub.title,
+    intro: null,
+    groups,
+  };
+}
+
+/** Thread sections grouped by hub subsection (for category homepages). */
+export function categorySubsectionSections(category) {
+  return (category.subsections ?? [])
+    .map((sub) => subsectionToSection(category.id, sub))
+    .filter(Boolean);
+}
+
+/** Thread sections for a category homepage (flat Projects / Journal / Products). */
 export function categoryThreadSections(category) {
+  const flat = flattenCategorySlugs(category);
   const sections = [];
-  const projects = manifestToProjectTiles(category.id, category.slugs);
-  const journals = journalToTiles(category.id, category.journalSlugs ?? []);
-  const products = productToTiles(category.id, category.productSlugs ?? []);
+  const projects = manifestToProjectTiles(category.id, flat.slugs);
+  const journals = journalToTiles(category.id, flat.journalSlugs);
+  const products = productToTiles(category.id, flat.productSlugs);
 
   if (projects.length) {
     sections.push({
@@ -211,7 +244,9 @@ export function getExplorerChronicleItems() {
   const items = [];
 
   for (const cat of WORK_CATEGORIES) {
-    for (const slug of cat.slugs ?? []) {
+    const { slugs, journalSlugs, productSlugs } = flattenCategorySlugs(cat);
+
+    for (const slug of slugs) {
       const work = resolveWork(slug);
       if (!work) continue;
       items.push({
@@ -220,13 +255,13 @@ export function getExplorerChronicleItems() {
         title: work.title,
         year: work.year,
         summary: work.summary,
-        image: work.image ?? null,
+        image: manifestImage(work.image),
         categoryId: cat.id,
         sortYear: parseYear(work.year),
       });
     }
 
-    for (const slug of cat.journalSlugs ?? []) {
+    for (const slug of journalSlugs) {
       const journal = resolveJournal(slug);
       if (!journal) continue;
       items.push({
@@ -235,13 +270,13 @@ export function getExplorerChronicleItems() {
         title: journal.title,
         year: journal.year || journal.date,
         summary: journal.summary,
-        image: journal.image ?? null,
+        image: manifestImage(journal.image),
         categoryId: cat.id,
         sortYear: parseJournalSortKey(journal),
       });
     }
 
-    for (const slug of cat.productSlugs ?? []) {
+    for (const slug of productSlugs) {
       const product = resolveProduct(slug);
       if (!product) continue;
       items.push({
@@ -250,7 +285,7 @@ export function getExplorerChronicleItems() {
         title: product.name,
         year: product.status,
         summary: product.summary,
-        image: product.image ?? null,
+        image: manifestImage(product.image),
         categoryId: cat.id,
         sortYear: 0,
       });
@@ -300,9 +335,10 @@ export function groupChronicleByYear(items) {
 
 /** Up to `limit` nav cards for Explorer category accordions (text-only, sorted by recency). */
 export function getCategoryNavCards(category, limit = 3) {
+  const flat = flattenCategorySlugs(category);
   const candidates = [];
 
-  for (const slug of category.slugs ?? []) {
+  for (const slug of flat.slugs) {
     const work = resolveWork(slug);
     if (!work) continue;
     candidates.push({
@@ -315,7 +351,7 @@ export function getCategoryNavCards(category, limit = 3) {
     });
   }
 
-  for (const slug of category.journalSlugs ?? []) {
+  for (const slug of flat.journalSlugs) {
     const journal = resolveJournal(slug);
     if (!journal) continue;
     candidates.push({
@@ -328,7 +364,7 @@ export function getCategoryNavCards(category, limit = 3) {
     });
   }
 
-  for (const slug of category.productSlugs ?? []) {
+  for (const slug of flat.productSlugs) {
     const product = resolveProduct(slug);
     if (!product) continue;
     candidates.push({

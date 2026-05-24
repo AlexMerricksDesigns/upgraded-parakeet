@@ -7,7 +7,10 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-import { WORK_CATEGORIES } from "./categories-data.js";
+import {
+  WORK_CATEGORIES,
+  flattenCategorySlugs,
+} from "./categories-data.js";
 import { EXPLORER_HUB_SPOTLIGHTS, getHubCategoryIds } from "./work-hubs.js";
 
 /** INTERACTIVE: store carousel interval (ms) */
@@ -49,7 +52,8 @@ function filterStoreByCategoryIds(storeProducts, categoryIds) {
   const slugSet = new Set();
   for (const id of categoryIds) {
     const cat = WORK_CATEGORIES.find((c) => c.id === id);
-    for (const slug of cat?.productSlugs ?? []) {
+    const { productSlugs } = flattenCategorySlugs(cat ?? { subsections: [] });
+    for (const slug of productSlugs) {
       slugSet.add(slug);
     }
   }
@@ -92,7 +96,9 @@ export function useExplorerPageState({ chronicle, storeProducts, heroRef, galler
   const filteredStoreProducts = useMemo(() => {
     if (activeCategoryId) {
       const cat = WORK_CATEGORIES.find((c) => c.id === activeCategoryId);
-      const slugs = cat?.productSlugs ?? [];
+      const { productSlugs: slugs } = flattenCategorySlugs(
+        cat ?? { subsections: [] }
+      );
       if (!slugs.length) return [];
       const slugSet = new Set(slugs);
       return storeProducts.filter((p) => slugSet.has(p.slug));

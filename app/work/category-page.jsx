@@ -140,7 +140,9 @@ export function ThreadSection({ section }) {
         <h2 id={`${section.id}-heading`} className="crypto-section__title">
           {section.title}
         </h2>
-        <p className="crypto-section__intro">{section.intro}</p>
+        {section.intro ? (
+          <p className="crypto-section__intro">{section.intro}</p>
+        ) : null}
       </header>
       {section.groups.map((group) => (
         <div className="crypto-section__group" key={group.id}>

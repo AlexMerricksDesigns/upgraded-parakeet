@@ -1,7 +1,7 @@
 [
   {
     "slug": "the-problem-of-value",
-    "href": "/work/crypto/journal/the-problem-of-value",
+    "href": "/work/photography/journal/the-problem-of-value",
     "title": "The Problem of Value",
     "date": "2 Apr 2021",
     "year": "2021",
@@ -9,12 +9,12 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/crypto/journal/crypto-art-value-paradigm",
+        "href": "/work/photography/journal/crypto-art-value-paradigm",
         "label": "Cryptoart essay",
         "eyebrow": "Journal"
       },
       {
-        "href": "/work/crypto",
+        "href": "/work/photography",
         "label": "On-chain photography",
         "eyebrow": "Work"
       }
@@ -22,7 +22,7 @@
   },
   {
     "slug": "crypto-art-value-paradigm",
-    "href": "/work/crypto/journal/crypto-art-value-paradigm",
+    "href": "/work/photography/journal/crypto-art-value-paradigm",
     "title": "Cryptoart, Value, and a Cultural Paradigm Shift",
     "date": "10 Mar 2021",
     "year": "2021",
@@ -30,12 +30,12 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/crypto/journal/the-problem-of-value",
+        "href": "/work/photography/journal/the-problem-of-value",
         "label": "The Problem of Value",
         "eyebrow": "Journal"
       },
       {
-        "href": "/work/crypto",
+        "href": "/work/photography",
         "label": "On-chain photography",
         "eyebrow": "Work"
       }
@@ -43,7 +43,7 @@
   },
   {
     "slug": "nationalism",
-    "href": "/work/philosophy/journal/nationalism",
+    "href": "/work/reflections/journal/nationalism",
     "title": "Nationalism, or how to love your nation",
     "date": "2021",
     "year": "2021",
@@ -53,7 +53,7 @@
   },
   {
     "slug": "god-metaphysical-reality",
-    "href": "/work/philosophy/journal/god-metaphysical-reality",
+    "href": "/work/reflections/journal/god-metaphysical-reality",
     "title": "God is a metaphysical reality, not a superhero",
     "date": "8 Mar 2021",
     "year": "2021",
@@ -63,7 +63,7 @@
   },
   {
     "slug": "poverty-of-the-input",
-    "href": "/work/philosophy/journal/poverty-of-the-input",
+    "href": "/work/reflections/journal/poverty-of-the-input",
     "title": "On the poverty of the input",
     "date": "2021",
     "year": "2021",
@@ -73,7 +73,7 @@
   },
   {
     "slug": "strata-judgements-of-god",
-    "href": "/work/philosophy/journal/strata-judgements-of-god",
+    "href": "/work/reflections/journal/strata-judgements-of-god",
     "title": "The Strata are Judgements of God",
     "date": "25 Feb 2021",
     "year": "2021",
@@ -81,7 +81,7 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/philosophy/journal/strata-notes",
+        "href": "/work/reflections/journal/strata-notes",
         "label": "Strata notes",
         "eyebrow": "Notes"
       }
@@ -89,7 +89,7 @@
   },
   {
     "slug": "strata-notes",
-    "href": "/work/philosophy/journal/strata-notes",
+    "href": "/work/reflections/journal/strata-notes",
     "title": "Notes on The Strata are Judgements of God",
     "date": "2021",
     "year": "2021",
@@ -97,7 +97,7 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/philosophy/journal/strata-judgements-of-god",
+        "href": "/work/reflections/journal/strata-judgements-of-god",
         "label": "The Strata essay",
         "eyebrow": "Journal"
       }
@@ -105,7 +105,7 @@
   },
   {
     "slug": "nature-stars-sky",
-    "href": "/work/philosophy/journal/nature-stars-sky",
+    "href": "/work/reflections/journal/nature-stars-sky",
     "title": "Nature, Stars, and the Sky",
     "date": "2021",
     "year": "2021",
@@ -113,7 +113,7 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/crypto",
+        "href": "/work/photography",
         "label": "Photography work",
         "eyebrow": "Work"
       }
@@ -121,7 +121,7 @@
   },
   {
     "slug": "ur-antifascism",
-    "href": "/work/philosophy/journal/ur-antifascism",
+    "href": "/work/reflections/journal/ur-antifascism",
     "title": "Ur-AntiFascism",
     "date": "2021",
     "year": "2021",
@@ -131,7 +131,7 @@
   },
   {
     "slug": "crypto-art-research",
-    "href": "/work/crypto/journal/crypto-art-research",
+    "href": "/work/photography/journal/crypto-art-research",
     "title": "Crypto (research)",
     "date": "2021",
     "year": "2021",
@@ -139,7 +139,7 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/crypto/journal/crypto-art-value-paradigm",
+        "href": "/work/photography/journal/crypto-art-value-paradigm",
         "label": "Cryptoart essay",
         "eyebrow": "Journal"
       }
@@ -147,7 +147,7 @@
   },
   {
     "slug": "firmament-godhead",
-    "href": "/work/philosophy/journal/firmament-godhead",
+    "href": "/work/reflections/journal/firmament-godhead",
     "title": "Firmament and the Godhead",
     "date": "2020",
     "year": "2020",
@@ -157,7 +157,7 @@
   },
   {
     "slug": "universities",
-    "href": "/work/philosophy/journal/universities",
+    "href": "/work/reflections/journal/universities",
     "title": "We Need to Talk about the Universities",
     "date": "2020",
     "year": "2020",
@@ -167,7 +167,7 @@
   },
   {
     "slug": "rhizome-dota-ti9",
-    "href": "/work/philosophy/journal/rhizome-dota-ti9",
+    "href": "/work/reflections/journal/rhizome-dota-ti9",
     "title": "Researching via Rhizomatisation (Dota 2)",
     "date": "2019",
     "year": "2019",
@@ -177,7 +177,7 @@
   },
   {
     "slug": "poems-blink",
-    "href": "/work/philosophy/journal/poems-blink",
+    "href": "/work/reflections/journal/poems-blink",
     "title": "Poems — Blink",
     "date": "2020",
     "year": "2020",
@@ -185,7 +185,7 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/philosophy/journal/poems-fractionation",
+        "href": "/work/reflections/journal/poems-fractionation",
         "label": "Fractionation",
         "eyebrow": "Poetry"
       }
@@ -193,7 +193,7 @@
   },
   {
     "slug": "poems-fractionation",
-    "href": "/work/philosophy/journal/poems-fractionation",
+    "href": "/work/reflections/journal/poems-fractionation",
     "title": "Poems — Fractionation",
     "date": "2020",
     "year": "2020",
@@ -201,7 +201,7 @@
     "status": "published",
     "related": [
       {
-        "href": "/work/philosophy/journal/poems-blink",
+        "href": "/work/reflections/journal/poems-blink",
         "label": "Blink",
         "eyebrow": "Poetry"
       }

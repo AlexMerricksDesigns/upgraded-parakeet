@@ -11,7 +11,7 @@ const featuredProjects = [
     title: "Plotted heads series",
     summary:
       "An evolving plotter-led portrait series where repeated marks let faces emerge through drift, density, and misalignment.",
-    image: "/work/plotted-heads/plotter-drawings001.jpg",
+    image: "/work/plotter/projects/plotted-heads/plotter-drawings001.jpg",
     tags: ["Emergent forms", "Plotter"],
   },
 ];
@@ -23,7 +23,7 @@ const featuredProducts = [
     name: "Postcard Series (6-card set)",
     summary:
       "A small edition set pulled from derivations and detours in image-making.",
-    image: "/shop/postcards/IMG_5206.jpg",
+    image: "/work/plotter/products/postcards/IMG_5206.jpg",
     price: "TBC",
   },
 ];

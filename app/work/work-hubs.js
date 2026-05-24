@@ -1,81 +1,56 @@
 /**
- * Work Explorer hub grid + hub landing pages (not chronicle categories).
+ * Work Explorer hub grid + spotlight rail (four top-level categories).
  */
 
 import { WORK_CATEGORIES } from "./categories-data.js";
 import { categoryPath } from "@/lib/work-paths";
 
-function categoryById(id) {
-  const cat = WORK_CATEGORIES.find((c) => c.id === id);
-  if (!cat) throw new Error(`Unknown work category: ${id}`);
-  return cat;
-}
-
-function hubChildTile(categoryId, summary) {
-  const cat = categoryById(categoryId);
-  return {
-    id: categoryId,
-    label: cat.title,
-    href: categoryPath(categoryId),
-    summary,
-  };
-}
-
 /** 2×2 feature nav on /work */
 export const EXPLORER_HUB_GRID = [
   {
-    id: "plotting",
-    title: "Plotting",
-    href: categoryPath("plotter"),
-    image: "/work/plotter/hero.jpg",
-  },
-  {
     id: "photography",
+    eyebrow: "Work area",
     title: "Photography",
+    summary:
+      "Lens-based observation — captured works, on-chain editions, and field notes from the archive.",
     href: categoryPath("photography"),
     image: "/work/photography/hero.jpg",
+    badgeLabel: "Photography",
   },
   {
-    id: "physical",
-    title: "Physical objects",
-    href: "/work/physical-objects",
-    image: "/work/meat-hammer/hero.jpg",
+    id: "plotter",
+    eyebrow: "Work area",
+    title: "Plotter Works",
+    summary:
+      "Generative and plotter-led drawing — experiments, finished pieces, and studio process.",
+    href: categoryPath("plotter"),
+    image: "/work/plotter/hero.jpg",
+    badgeLabel: "Plotter Works",
   },
   {
-    id: "other",
-    title: "Other projects",
-    href: "/work/other-projects",
-    image: "/work/designing-dope/cover.jpg",
+    id: "physical-objects",
+    eyebrow: "Work area",
+    title: "Physical Objects & Systems",
+    summary:
+      "Tactile making, living systems, and installations — metal, wood, and embodied prototypes.",
+    href: categoryPath("physical-objects"),
+    image: "/work/physical-objects/projects/meat-hammer/hero.jpg",
+    badgeLabel: "Physical Objects",
+  },
+  {
+    id: "reflections",
+    eyebrow: "Work area",
+    title: "Reflections & Writing",
+    summary:
+      "Essays, dissertations, and notes on observation, value, process, and philosophy.",
+    href: categoryPath("reflections"),
+    image: "/work/reflections/projects/designing-dope/cover.jpg",
+    badgeLabel: "Reflections",
   },
 ];
 
-/** /work/physical-objects — child category links */
-export const PHYSICAL_OBJECT_CATEGORIES = [
-  hubChildTile(
-    "metalworking",
-    "Cast and worked metal — recycled aluminium and functional tools."
-  ),
-  hubChildTile(
-    "woodworking",
-    "Furniture, handles, and studio objects in reclaimed wood."
-  ),
-];
-
-/** Left spotlight rail on /work — hub buckets + featured project per area */
+/** Left spotlight rail on /work — one hub per category */
 export const EXPLORER_HUB_SPOTLIGHTS = [
-  {
-    hubId: "plotting",
-    title: "Plotting",
-    filterCategoryIds: ["plotter"],
-    hubHref: categoryPath("plotter"),
-    featured: {
-      href: "/work/plotter/projects/plotted-heads",
-      title: "Plotted heads series",
-      image: "/work/plotted-heads/plotter-drawings001.jpg",
-      summary:
-        "An evolving plotter-led portrait series where repeated marks let faces emerge through drift, density, and misalignment.",
-    },
-  },
   {
     hubId: "photography",
     title: "Photography",
@@ -90,33 +65,40 @@ export const EXPLORER_HUB_SPOTLIGHTS = [
     },
   },
   {
-    hubId: "physical",
-    title: "Physical objects",
-    filterCategoryIds: ["metalworking", "woodworking"],
-    hubHref: "/work/physical-objects",
+    hubId: "plotter",
+    title: "Plotter Works",
+    filterCategoryIds: ["plotter"],
+    hubHref: categoryPath("plotter"),
     featured: {
-      href: "/work/metalworking/projects/meat-hammer",
+      href: "/work/plotter/projects/plotted-heads",
+      title: "Plotted heads series",
+      image: "/work/plotter/projects/plotted-heads/plotter-drawings001.jpg",
+      summary:
+        "An evolving plotter-led portrait series where repeated marks let faces emerge through drift, density, and misalignment.",
+    },
+  },
+  {
+    hubId: "physical-objects",
+    title: "Physical Objects & Systems",
+    filterCategoryIds: ["physical-objects"],
+    hubHref: categoryPath("physical-objects"),
+    featured: {
+      href: "/work/physical-objects/projects/meat-hammer",
       title: "Meat hammer (recycled aluminium)",
-      image: "/work/meat-hammer/hero.jpg",
+      image: "/work/physical-objects/projects/meat-hammer/hero.jpg",
       summary:
         "A tenderising hammer cast from recycled drinks cans with a reclaimed wood handle.",
     },
   },
   {
-    hubId: "other",
-    title: "Other projects",
-    filterCategoryIds: [
-      "pc-networks",
-      "film",
-      "nursery",
-      "philosophy",
-      "crypto",
-    ],
-    hubHref: "/work/other-projects",
+    hubId: "reflections",
+    title: "Reflections & Writing",
+    filterCategoryIds: ["reflections"],
+    hubHref: categoryPath("reflections"),
     featured: {
-      href: "/work/philosophy/projects/designing-dope",
+      href: "/work/reflections/projects/designing-dope",
       title: "Designing Dope",
-      image: "/work/designing-dope/cover.jpg",
+      image: "/work/reflections/projects/designing-dope/cover.jpg",
       summary:
         "Dissertation on novel grown materials, cannabis, hemp, and producing from the natural and artificial.",
     },
@@ -145,26 +127,10 @@ export function getHubSpotlight(hubId) {
   return hubSpotlightById[hubId] ?? null;
 }
 
-/** /work/other-projects — catch-all category links */
-export const OTHER_PROJECT_CATEGORIES = [
-  hubChildTile(
-    "pc-networks",
-    "AI image generation, manipulation, and upscaling workflows."
-  ),
-  hubChildTile(
-    "film",
-    "Frame animation and numbered video chapters."
-  ),
-  hubChildTile(
-    "nursery",
-    "Plant and tree nursery experiments — placeholder until more is republished."
-  ),
-  hubChildTile(
-    "philosophy",
-    "Design dissertations, theory notes, and journal essays."
-  ),
-  hubChildTile(
-    "crypto",
-    "On-chain collecting and creating — essays and digital editions."
-  ),
-];
+/** Category titles for explorer (derived from registry). */
+export function getExplorerCategoryList() {
+  return WORK_CATEGORIES.map((cat) => ({
+    id: cat.id,
+    title: cat.title,
+  }));
+}

@@ -20,34 +20,34 @@ export const siteConfig = {
 };
 
 export const heroImages = [
-  "/assets/hero/_MG_0444.webp",
-  "/assets/hero/_MG_2096.webp",
-  "/assets/hero/_MG_3265.webp",
-  "/assets/hero/_MG_3586.webp",
+  "/assets/hero/_MG_0444.jpg",
+  "/assets/hero/_MG_2096.jpg",
+  "/assets/hero/_MG_3265.jpg",
+  "/assets/hero/_MG_3586.jpg",
 ];
 
-/** Parent-page hero copy and optimized image paths (WebP). */
+/** Parent-page hero copy and image paths under public/assets/hero/. */
 export const pageHero = {
   work: {
     eyebrow: "Work",
     title: "Dérivé Studio",
     description:
-      "Work by Alexander S. Merricks — in timeline or filter by category.",
-    image: "/assets/hero/portfolio-hero.webp",
+      "Observations through lens, code, and living systems — browse by area or timeline.",
+    image: "/assets/hero/portfolio-hero.jpg",
   },
   about: {
     eyebrow: "About",
     title: "A studio home for work with a point of view",
     description:
       "Photography, design, and lens-based practice at the intersection of observation, systems, and experimentation.",
-    image: "/assets/hero/about-hero.webp",
+    image: "/assets/hero/about-hero.jpg",
   },
   shop: {
     eyebrow: "Shop",
     title: "A first shelf for products, editions, and experiments.",
     description:
       "Each item starts as a prototype and graduates when it is ready to sell.",
-    image: "/assets/hero/shop-hero.webp",
+    image: "/assets/hero/shop-hero.gif",
     mediaType: "image",
   },
   journal: {
@@ -55,14 +55,14 @@ export const pageHero = {
     title: "Updates, making notes, and the public process.",
     description:
       "Essays and research notes: crypto-art, value, design theory, and studio thinking.",
-    image: "/assets/hero/journal-hero.webp",
+    image: "/assets/hero/journal-hero.jpg",
   },
   contact: {
     eyebrow: "Contact",
     title: "Start a conversation.",
     description:
       "Commissions, collaborations, product questions, or wholesale conversations.",
-    image: "/assets/hero/contact-hero.webp",
+    image: "/assets/hero/contact-hero.jpg",
   },
 };
 

@@ -5,81 +5,48 @@ products, writing, and experiments into one public website.
 
 ## How this project is put together
 
-This is a **Next.js + React** site, written in plain JavaScript (`.js` /
-`.jsx`) and plain CSS. There are only four kinds of file to know about:
+Next.js + React in plain JavaScript (`.js` / `.jsx`) and plain CSS.
 
-- `app/` — one folder per URL; page code, manifests, and prose live here.
-- `components/` — small reusable pieces (header, footer, hero, etc.).
-- `app/site.js` — site-wide settings (name, navigation, hero images, about).
-- `public_originals/` — full-size images and PDFs (source of truth).
-- `public/` — optimized assets for the site (`npm run assets:optimize`).
-- `app/globals.css` — **all the visual styling for the entire site**.
+- `app/` — routes; work uses **route groups** `(explorer)`, `(hubs)`, `(categories)`, `(thread)` — see [`app/work/README.md`](app/work/README.md)
+- `components/` — shared UI and bespoke work/product layouts
+- `app/site.js` — site name, navigation, hero images
+- `public_originals/` — source media (local)
+- `public/` — optimized output (`npm run assets:optimize`)
+- `app/globals.css` — all styling
 
-See **`PROJECT_LAYOUT.md`** for a full root-directory map.
-
-There is no Tailwind, no markdown, no content loader, no separate data schema.
-The page you see on screen and the file you edit are the same thing.
+See **`PROJECT_LAYOUT.md`** for a root map. **Adding work content:** [`app/work/ADDING.md`](app/work/ADDING.md).
 
 ## URLs come from folders
 
-| URL                              | File                                          |
-| -------------------------------- | --------------------------------------------- |
-| `/`                              | `app/page.jsx`                                |
-| `/about`                         | `app/about/page.jsx`                          |
-| `/work`                          | `app/work/page.jsx`                           |
-| `/work/plotted-heads`            | `app/work/plotted-heads/page.jsx`             |
-| `/shop`                          | `app/shop/page.jsx`                           |
-| `/shop/postcards`                | `app/shop/postcards/page.jsx`                 |
-| `/journal`                       | `app/journal/page.jsx`                        |
-| `/journal/the-problem-of-value`  | `app/journal/the-problem-of-value/page.jsx`   |
-| `/contact`                       | `app/contact/page.jsx`                        |
+| URL | File |
+|-----|------|
+| `/` | `app/page.jsx` |
+| `/about` | `app/about/page.jsx` |
+| `/work` | `app/work/(explorer)/page.jsx` |
+| `/work/plotter` | `app/work/(categories)/plotter/page.jsx` |
+| `/work/plotter/projects/plotted-heads` | dynamic `(thread)/[category]/projects/[slug]/` + registry |
+| `/shop` | `app/shop/page.jsx` |
+| `/journal` | `app/journal/page.jsx` |
+| `/contact` | `app/contact/page.jsx` |
 
-## Adding a new project, product, or post
+## Adding a new project
 
-Same three steps every time. Example: adding `/work/my-thing`.
+See [`app/work/ADDING.md`](app/work/ADDING.md). Short version:
 
-1. **Make the page.** Copy `app/work/plotted-heads/page.jsx` →
-   `app/work/my-thing/page.jsx`. Edit the title, text, image paths, and tags.
-2. **Add a card to the index.** Open `app/work/page.jsx`, find the `projects`
-   array near the top, and add an entry with the title, summary, image, tags,
-   and the new `href`.
-3. **Put images in `public/work/my-thing/`.** Served as `/work/my-thing/hero.jpg`
-   (or use `workAsset("my-thing", "hero.jpg")` from `@/lib/assets`).
-
-Same flow for `app/shop/<slug>/` and `app/journal/<slug>/`.
+1. `categories-data.js` — add slug to a category
+2. `manifest.json` — card metadata and nested `href`
+3. `bodies/<slug>.js` + `registry.js` — prose
+4. Images in `public_originals/work/<category>/projects/<slug>/`
 
 ## Editing the look
 
-All styling lives in **`app/globals.css`**. It is organised into ten short
-sections, signposted at the top of the file:
-
-1. Design tokens (CSS variables for colours, sizes, etc.)
-2. Base / reset
-3. Layout primitives (`.container`, `.section`)
-4. Site chrome (`.site-header`, `.site-footer`, `.nav`)
-5. Typography helpers (`.eyebrow`, `.page-title`, `.intro`, `.prose`)
-6. Buttons & tags (`.btn`, `.btn-ghost`, `.tag`)
-7. Cards & grids (`.card`, `.card-link`, `.grid-2`, `.grid-3`)
-8. Hero (home page)
-9. Detail-page bits (`.breadcrumb`, `.hero-media`, `.figure`, `.gallery`,
-   `.details-grid`)
-10. Forms (contact page)
-
-Common changes:
-
-- **Change a colour everywhere** — edit the variables in section 1
-  (`--accent`, `--bg`, `--fg`, etc.).
-- **Make all cards rounder / less round** — edit `--radius` in section 1.
-- **Change the size of every card** — edit `.card` in section 7.
-- **One-off tweak on a single page** — use the `style={{ ... }}` prop on the
-  element (already used in a few places for small adjustments).
+All styling in **`app/globals.css`** (ten sections, signposted at the top).
 
 ## Editing content
 
-- **Site name, navigation, hero images, about copy** — `content/site.js`.
-- **Anything visible on a specific page** — that page's own `page.jsx` file.
-- **Header / footer chrome** — `components/site-header.jsx`,
-  `components/site-footer.jsx`.
+- **Site-wide** — `app/site.js`
+- **A specific page** — its `page.jsx` under `app/`
+- **Chrome** — `components/site-header.jsx`, `components/site-footer.jsx`
 
 ## Getting started
 
@@ -88,20 +55,13 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000).
 
-## Available scripts
+## Scripts
 
-- `npm run dev` — start the development server
+- `npm run dev` — development server
 - `npm run build` — production build
-- `npm run start` — run the production build locally
-- `npm run lint` — run ESLint
-- `npm run assets:optimize` — rebuild `public/` from `public_originals/` (heroes WebP/JPEG; GIF→WebM if ffmpeg installed)
-
-## Project workflow
-
-See [`docs/workflow.md`](docs/workflow.md) for the plain-English Git/GitHub
-routine for working across mobile, laptop, main PC, and cloud-agent sessions.
-
-
-public/ directorary excluded from github for file size concerns and constraints - assume all content referenced exists on local.
+- `npm run start` — run production build
+- `npm run lint` — ESLint
+- `npm run assets:optimize` — heroes from `public_originals/`
+- `npm run assets:optimize:all` — full `public/` rebuild

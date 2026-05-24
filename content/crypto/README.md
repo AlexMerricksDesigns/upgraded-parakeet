@@ -6,7 +6,7 @@ On-chain work on the site is **portfolio content**, not live indexers. You add t
 
 | Track | Where | How data gets in |
 |-------|--------|------------------|
-| **Portfolio (Work)** | `/work/crypto`, project pages | `content.js` + optional JSON under `content/crypto/` |
+| **Portfolio (Work)** | `/work/crypto`, project pages | [`lib/crypto-portfolio.js`](../../lib/crypto-portfolio.js) + JSON under `content/crypto/` |
 | **Shop (later)** | `/work/crypto/products/digital-editions`, `/shop` | Wallet, listings, APIs — see [`content/shop/FUTURE.md`](../shop/FUTURE.md) |
 
 Do not bulk-import ~2.2k collected tokens. Use series hubs, profile links, and featured tiles.
@@ -80,7 +80,7 @@ Series JSON shape:
 }
 ```
 
-Import series in `content.js` via [`lib/crypto-portfolio.js`](../../lib/crypto-portfolio.js).
+Import series in [`lib/crypto-portfolio.js`](../../lib/crypto-portfolio.js) (used by `app/work/(categories)/crypto/page.jsx`).
 
 ## Identities
 
@@ -105,7 +105,7 @@ Set `mint.tezos` after running `npm run probe:objkt -- --resolve-mint`.
    npm run probe:base -- --limit 5
    ```
 
-2. Copy printed JSON into `content/crypto/minted/*.json` or inline in `content.js`.
+2. Copy printed JSON into `content/crypto/minted/*.json` or extend `lib/crypto-portfolio.js`.
 
 3. Rebuild / refresh dev server — no runtime API calls in production.
 

@@ -5,7 +5,7 @@
     "name": "Postcard Series (6-card set)",
     "status": "Prototype",
     "summary": "A small edition set pulled from derivations and detours in image-making.",
-    "image": "/shop/postcards/IMG_5206.jpg",
+    "image": "/work/plotter/products/postcards/IMG_5206.jpg",
     "price": "TBC",
     "format": "Physical",
     "published": true
@@ -23,11 +23,11 @@
   },
   {
     "slug": "digital-editions",
-    "href": "/work/crypto/products/digital-editions",
+    "href": "/work/photography/products/digital-editions",
     "name": "Digital editions",
     "status": "Coming soon",
-    "summary": "Shop shelf for on-chain editions — portfolio on /work/crypto; wallet and checkout later.",
-    "image": "/work/crypto/banner.jpg",
+    "summary": "Shop shelf for on-chain editions — portfolio on /work/photography; wallet and checkout later.",
+    "image": "/work/photography/crypto/banner.jpg",
     "price": "TBC",
     "format": "Digital",
     "published": true

@@ -80,18 +80,11 @@ export function ExplorerStoreRail({
               <StoreProductCard key={product.href} product={product} />
             ))
           ) : (
-            visibleProducts.map((product, index) => {
-              const isActive = index === activeIndex;
-              return (
-                <StoreProductCard
-                  key={product.href}
-                  product={product}
-                  className={isActive ? "is-active" : ""}
-                  aria-hidden={!isActive}
-                  tabIndex={isActive ? 0 : -1}
-                />
-              );
-            })
+            <StoreProductCard
+              key={products[activeIndex]?.href ?? activeIndex}
+              product={products[activeIndex]}
+              className="is-active"
+            />
           )}
         </div>
         {showDots ? (

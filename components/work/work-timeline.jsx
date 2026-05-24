@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 import { LinkAffordance } from "@/components/link-affordance";
@@ -17,16 +18,25 @@ function WorkTimelineCard({ project }) {
     "explorer-chronicle__entry work-timeline__card"
   );
   const a11y = getLinkAriaLabel(project.title, resolved);
+  const hasImage = Boolean(project.image);
   const visualClass = `work-timeline__card-visual${
-    project.image ? "" : " work-timeline__card-visual--placeholder"
+    hasImage ? "" : " work-timeline__card-visual--placeholder"
   }`;
-  const visualStyle = project.image
-    ? { backgroundImage: `url(${project.image})` }
-    : undefined;
 
   const body = (
     <>
-      <div className={visualClass} style={visualStyle} aria-hidden="true" />
+      <div className={visualClass} aria-hidden="true">
+        {hasImage ? (
+          <Image
+            src={project.image}
+            alt=""
+            fill
+            loading="lazy"
+            sizes="(min-width: 960px) 280px, 85vw"
+            className="work-timeline__card-visual-media"
+          />
+        ) : null}
+      </div>
       <div className="work-timeline__card-body">
         <LinkAffordance
           kind={resolved.kind}

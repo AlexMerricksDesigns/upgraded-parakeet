@@ -13,10 +13,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-*.tsbuildinfo
-
 # Cold-storage ingest — not used at runtime (see PROJECT_LAYOUT.md)
 /0consolidating previous attempts content ingest folder/
+.consolidating previous attempts content ingest folder/
 # OS / editor noise
 .DS_Store
 Thumbs.db
