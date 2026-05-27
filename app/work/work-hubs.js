@@ -57,7 +57,7 @@ export const EXPLORER_HUB_SPOTLIGHTS = [
     filterCategoryIds: ["photography"],
     hubHref: categoryPath("photography"),
     featured: {
-      href: "/work/photography/projects/brighton-by-bench",
+      href: "/work/photography/series/brighton-by-bench",
       title: "Brighton by Bench",
       image: "/work/photography/series-brighton-by-bench.jpg",
       summary:

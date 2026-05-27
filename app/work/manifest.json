@@ -80,36 +80,6 @@
     "status": "published"
   },
   {
-    "slug": "brighton-by-bench",
-    "href": "/work/photography/projects/brighton-by-bench",
-    "title": "Brighton by Bench",
-    "year": "2022",
-    "summary": "100 Tezos tokens — benches as pause and permission, from the university project An Assemblage; for sitting.",
-    "image": "/work/photography/series-brighton-by-bench.jpg",
-    "tags": ["Tezos", "Benches", "Brighton"],
-    "status": "published"
-  },
-  {
-    "slug": "lightworms",
-    "href": "/work/photography/projects/lightworms",
-    "title": "Lightworms",
-    "year": "2022",
-    "summary": "50 Tezos tokens — pond light, larvae glow, and water-surface abstraction.",
-    "image": "/work/photography/series-lightworms.jpg",
-    "tags": ["Tezos", "Light", "Pond"],
-    "status": "published"
-  },
-  {
-    "slug": "india-2016",
-    "href": "/work/photography/projects/india-2016",
-    "title": "India 2016 archive",
-    "year": "2016",
-    "summary": "First Canon 400D journey — Agra, Taj Mahal region, architecture, travel, and cultural scenes.",
-    "image": "/work/photography/series-india-2016.jpg",
-    "tags": ["India", "Travel", "Canon 400D"],
-    "status": "published"
-  },
-  {
     "slug": "drawing-studio",
     "href": "/work/photography/projects/drawing-studio",
     "title": "Drawing studio",

@@ -1,0 +1,630 @@
+{
+  "brighton-by-bench": {
+    "layout": "series",
+    "meta": {
+      "title": "Brighton by Bench",
+      "intro": "100 Tezos tokens — benches as pause and permission, from the university project An Assemblage; for sitting.",
+      "description": "100 Tezos tokens — benches as pause and permission, from the university project An Assemblage; for sitting.",
+      "date": "2022",
+      "series": "brighton-by-bench",
+      "tags": [
+        "Tezos",
+        "Benches",
+        "Brighton"
+      ]
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-by-bench",
+      "label": "Brighton by Bench"
+    },
+    "hero": {
+      "year": "2022",
+      "image": "/work/photography/series-brighton-by-bench.jpg",
+      "alt": "Brighton by Bench — photography series",
+      "description": "100-token bench collection — flagship captured and minted work on Tezos."
+    }
+  },
+  "lightworms": {
+    "layout": "series",
+    "meta": {
+      "title": "Lightworms",
+      "intro": "50 Tezos tokens — pond light, larvae glow, and water-surface abstraction.",
+      "description": "50 Tezos tokens — pond light, larvae glow, and water-surface abstraction.",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": [
+        "Tezos",
+        "Light",
+        "Pond"
+      ]
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Lightworms"
+    },
+    "hero": {
+      "year": "2022",
+      "image": "/work/photography/series-lightworms.jpg",
+      "alt": "Lightworms — photography series",
+      "description": "Luminous fragments of southern light. A 2022 collection exploring abstraction through intimate observation."
+    }
+  },
+  "india-2016": {
+    "layout": "series",
+    "meta": {
+      "title": "India 2016 archive",
+      "intro": "First Canon 400D journey — Agra, Taj Mahal region, architecture, travel, and cultural scenes.",
+      "description": "First Canon 400D journey — Agra, Taj Mahal region, architecture, travel, and cultural scenes.",
+      "date": "2016",
+      "series": "india-2016",
+      "tags": [
+        "India",
+        "Travel",
+        "Canon 400D"
+      ]
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "india-2016",
+      "label": "India 2016 archive"
+    },
+    "hero": {
+      "year": "2016",
+      "image": "/work/photography/series-india-2016.jpg",
+      "alt": "India 2016 archive — photography series",
+      "description": "First Canon 400D journey — Agra and travel at the DSLR turning point."
+    }
+  },
+  "hicetnunc": {
+    "layout": "series",
+    "meta": {
+      "title": "Hic Et Nunc mints",
+      "intro": "Hic Et Nunc mint archive — individual tokens, not featured on the photography hub until curated into named series.",
+      "description": "Hic Et Nunc mint archive — individual tokens, not featured on the photography hub until curated into named series.",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Hic Et Nunc mints"
+    },
+    "hero": {
+      "year": "2021",
+      "image": "/work/photography/series-hicetnunc.jpg",
+      "alt": "Hic Et Nunc mints — photography series",
+      "description": "Hic Et Nunc mint archive — individual tokens, not featured on the photography hub until curated into named series."
+    }
+  },
+  "birds-in-brighton": {
+    "layout": "series",
+    "meta": {
+      "title": "Birds in Brighton",
+      "intro": "Brighton bird studies — draft series.",
+      "description": "Brighton bird studies — draft series.",
+      "date": "",
+      "series": "birds-in-brighton",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "birds-in-brighton",
+      "label": "Birds in Brighton"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-birds-in-brighton.jpg",
+      "alt": "Birds in Brighton — photography series",
+      "description": "Brighton bird studies — draft series."
+    }
+  },
+  "bristol-rainshine": {
+    "layout": "series",
+    "meta": {
+      "title": "Bristol Rainshine",
+      "intro": "Bristol rainshine triptych — draft series.",
+      "description": "Bristol rainshine triptych — draft series.",
+      "date": "",
+      "series": "bristol-rainshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "bristol-rainshine",
+      "label": "Bristol Rainshine"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-bristol-rainshine.jpg",
+      "alt": "Bristol Rainshine — photography series",
+      "description": "Bristol rainshine triptych — draft series."
+    }
+  },
+  "brighton-triptychs": {
+    "layout": "series",
+    "meta": {
+      "title": "Brighton triptychs",
+      "intro": "Brighton portrait and landscape triptychs — draft series.",
+      "description": "Brighton portrait and landscape triptychs — draft series.",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "Brighton triptychs"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-brighton-triptychs.jpg",
+      "alt": "Brighton triptychs — photography series",
+      "description": "Brighton portrait and landscape triptychs — draft series."
+    }
+  },
+  "brighton-sunshine": {
+    "layout": "series",
+    "meta": {
+      "title": "Brighton sunshine",
+      "intro": "Brighton sunshine walk — draft series.",
+      "description": "Brighton sunshine walk — draft series.",
+      "date": "",
+      "series": "brighton-sunshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-sunshine",
+      "label": "Brighton sunshine"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-brighton-sunshine.jpg",
+      "alt": "Brighton sunshine — photography series",
+      "description": "Brighton sunshine walk — draft series."
+    }
+  },
+  "murder-of-crows": {
+    "layout": "series",
+    "meta": {
+      "title": "A Murder of Crows",
+      "intro": "Crow sequence — draft series.",
+      "description": "Crow sequence — draft series.",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "A Murder of Crows"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-murder-of-crows.jpg",
+      "alt": "A Murder of Crows — photography series",
+      "description": "Crow sequence — draft series."
+    }
+  },
+  "animation": {
+    "layout": "series",
+    "meta": {
+      "title": "Animation",
+      "intro": "Frame animations — draft series.",
+      "description": "Frame animations — draft series.",
+      "date": "",
+      "series": "animation",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "animation",
+      "label": "Animation"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-animation.jpg",
+      "alt": "Animation — photography series",
+      "description": "Frame animations — draft series."
+    }
+  },
+  "black-and-whites": {
+    "layout": "series",
+    "meta": {
+      "title": "Black and Whites",
+      "intro": "Black and white studies — draft series.",
+      "description": "Black and white studies — draft series.",
+      "date": "",
+      "series": "black-and-whites",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "black-and-whites",
+      "label": "Black and Whites"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-black-and-whites.jpg",
+      "alt": "Black and Whites — photography series",
+      "description": "Black and white studies — draft series."
+    }
+  },
+  "ucm": {
+    "layout": "series",
+    "meta": {
+      "title": "Unintentional camera movements",
+      "intro": "UCM experiments — draft series.",
+      "description": "UCM experiments — draft series.",
+      "date": "",
+      "series": "ucm",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "ucm",
+      "label": "Unintentional camera movements"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-ucm.jpg",
+      "alt": "Unintentional camera movements — photography series",
+      "description": "UCM experiments — draft series."
+    }
+  },
+  "macro": {
+    "layout": "series",
+    "meta": {
+      "title": "Macro",
+      "intro": "Macro study — draft series.",
+      "description": "Macro study — draft series.",
+      "date": "",
+      "series": "macro",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "macro",
+      "label": "Macro"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-macro.jpg",
+      "alt": "Macro — photography series",
+      "description": "Macro study — draft series."
+    }
+  },
+  "BAE": {
+    "layout": "series",
+    "meta": {
+      "title": "Blockchain Art Exchange",
+      "intro": "Ethereum mints via Blockchain Art Exchange.",
+      "description": "Ethereum mints via Blockchain Art Exchange.",
+      "date": "2021",
+      "series": "BAE",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "BAE",
+      "label": "Blockchain Art Exchange"
+    },
+    "hero": {
+      "year": "2021",
+      "image": "/work/photography/series-BAE.jpg",
+      "alt": "Blockchain Art Exchange — photography series",
+      "description": "Ethereum mints via Blockchain Art Exchange."
+    }
+  },
+  "Kalamint": {
+    "layout": "series",
+    "meta": {
+      "title": "Kalamint",
+      "intro": "Kalamint platform mints.",
+      "description": "Kalamint platform mints.",
+      "date": "2021",
+      "series": "Kalamint",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Kalamint",
+      "label": "Kalamint"
+    },
+    "hero": {
+      "year": "2021",
+      "image": "/work/photography/series-Kalamint.jpg",
+      "alt": "Kalamint — photography series",
+      "description": "Kalamint platform mints."
+    }
+  },
+  "versum": {
+    "layout": "series",
+    "meta": {
+      "title": "Versum",
+      "intro": "Versum platform mints.",
+      "description": "Versum platform mints.",
+      "date": "2022",
+      "series": "versum",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "versum",
+      "label": "Versum"
+    },
+    "hero": {
+      "year": "2022",
+      "image": "/work/photography/series-versum.jpg",
+      "alt": "Versum — photography series",
+      "description": "Versum platform mints."
+    }
+  },
+  "fxtext": {
+    "layout": "series",
+    "meta": {
+      "title": "fx(text)",
+      "intro": "fx(text) mints.",
+      "description": "fx(text) mints.",
+      "date": "2022",
+      "series": "fxtext",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "fxtext",
+      "label": "fx(text)"
+    },
+    "hero": {
+      "year": "2022",
+      "image": "/work/photography/series-fxtext.jpg",
+      "alt": "fx(text) — photography series",
+      "description": "fx(text) mints."
+    }
+  },
+  "Photographs": {
+    "layout": "series",
+    "meta": {
+      "title": "Photographs",
+      "intro": "General photograph mints.",
+      "description": "General photograph mints.",
+      "date": "",
+      "series": "Photographs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photographs",
+      "label": "Photographs"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photographs.jpg",
+      "alt": "Photographs — photography series",
+      "description": "General photograph mints."
+    }
+  },
+  "Photez Thematic v1 - Orange": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez Thematic v1 — Orange",
+      "intro": "Photez thematic collection.",
+      "description": "Photez thematic collection.",
+      "date": "",
+      "series": "Photez Thematic v1 - Orange",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v1 - Orange",
+      "label": "Photez Thematic v1 — Orange"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez Thematic v1 - Orange.jpg",
+      "alt": "Photez Thematic v1 — Orange — photography series",
+      "description": "Photez thematic collection."
+    }
+  },
+  "Photez Thematic v2 - Have a Seat": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez Thematic v2 — Have a Seat",
+      "intro": "Photez thematic collection.",
+      "description": "Photez thematic collection.",
+      "date": "",
+      "series": "Photez Thematic v2 - Have a Seat",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v2 - Have a Seat",
+      "label": "Photez Thematic v2 — Have a Seat"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez Thematic v2 - Have a Seat.jpg",
+      "alt": "Photez Thematic v2 — Have a Seat — photography series",
+      "description": "Photez thematic collection."
+    }
+  },
+  "Photez Thematic v3 - Reflections": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez Thematic v3 — Reflections",
+      "intro": "Photez thematic collection.",
+      "description": "Photez thematic collection.",
+      "date": "",
+      "series": "Photez Thematic v3 - Reflections",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v3 - Reflections",
+      "label": "Photez Thematic v3 — Reflections"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez Thematic v3 - Reflections.jpg",
+      "alt": "Photez Thematic v3 — Reflections — photography series",
+      "description": "Photez thematic collection."
+    }
+  },
+  "Photez Thematic v4 - Tezos4Nature": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez Thematic v4 — Tezos4Nature",
+      "intro": "Photez thematic collection.",
+      "description": "Photez thematic collection.",
+      "date": "",
+      "series": "Photez Thematic v4 - Tezos4Nature",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v4 - Tezos4Nature",
+      "label": "Photez Thematic v4 — Tezos4Nature"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez Thematic v4 - Tezos4Nature.jpg",
+      "alt": "Photez Thematic v4 — Tezos4Nature — photography series",
+      "description": "Photez thematic collection."
+    }
+  },
+  "Photez Thematic v5 - Gestalt": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez Thematic v5 — Gestalt",
+      "intro": "Photez thematic collection.",
+      "description": "Photez thematic collection.",
+      "date": "",
+      "series": "Photez Thematic v5 - Gestalt",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v5 - Gestalt",
+      "label": "Photez Thematic v5 — Gestalt"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez Thematic v5 - Gestalt.jpg",
+      "alt": "Photez Thematic v5 — Gestalt — photography series",
+      "description": "Photez thematic collection."
+    }
+  },
+  "Photez for #1of1": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez for #1of1",
+      "intro": "Photez 1/1 mints.",
+      "description": "Photez 1/1 mints.",
+      "date": "",
+      "series": "Photez for #1of1",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez for #1of1",
+      "label": "Photez for #1of1"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez for #1of1.jpg",
+      "alt": "Photez for #1of1 — photography series",
+      "description": "Photez 1/1 mints."
+    }
+  },
+  "Photez Thematic v7 - Shadows": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez Thematic v7 — Shadows",
+      "intro": "Photez thematic collection.",
+      "description": "Photez thematic collection.",
+      "date": "",
+      "series": "Photez Thematic v7 - Shadows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v7 - Shadows",
+      "label": "Photez Thematic v7 — Shadows"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez Thematic v7 - Shadows.jpg",
+      "alt": "Photez Thematic v7 — Shadows — photography series",
+      "description": "Photez thematic collection."
+    }
+  },
+  "Photez Thematic v8 - The Upside Down": {
+    "layout": "series",
+    "meta": {
+      "title": "Photez Thematic v8 — The Upside Down",
+      "intro": "Photez thematic collection.",
+      "description": "Photez thematic collection.",
+      "date": "",
+      "series": "Photez Thematic v8 - The Upside Down",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v8 - The Upside Down",
+      "label": "Photez Thematic v8 — The Upside Down"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-Photez Thematic v8 - The Upside Down.jpg",
+      "alt": "Photez Thematic v8 — The Upside Down — photography series",
+      "description": "Photez thematic collection."
+    }
+  },
+  "street-photography": {
+    "layout": "series",
+    "meta": {
+      "title": "Street photography",
+      "intro": "Non-minted street and sign work.",
+      "description": "Non-minted street and sign work.",
+      "date": "",
+      "series": "street-photography",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "street-photography",
+      "label": "Street photography"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-street-photography.jpg",
+      "alt": "Street photography — photography series",
+      "description": "Non-minted street and sign work."
+    }
+  },
+  "archive": {
+    "layout": "series",
+    "meta": {
+      "title": "Archive",
+      "intro": "Draft catalogue entries not yet assigned to a series.",
+      "description": "Draft catalogue entries not yet assigned to a series.",
+      "date": "",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Archive"
+    },
+    "hero": {
+      "year": "",
+      "image": "/work/photography/series-archive.jpg",
+      "alt": "Archive — photography series",
+      "description": "Draft catalogue entries not yet assigned to a series."
+    }
+  }
+}

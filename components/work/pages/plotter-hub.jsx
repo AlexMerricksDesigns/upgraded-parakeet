@@ -476,7 +476,7 @@ const relatedOnSiteLinks = [
     summary: "Six-card set from the series",
   },
   {
-    href: categoryPath("crypto"),
+    href: categoryPath("photography"),
     label: "Crypto / NFT",
     summary: "Digital editions from the same studio period",
   },
@@ -661,10 +661,10 @@ export function PlotterHubPage() {
       title=""
       intro={null}
     >
-      <article className="crypto-page plotter-page">
+      <article className="work-hub-page work-hub-page--category-home plotter-page">
         {/* —— Hero: video loop when asset exists, else high-impact still —— */}
-        <header className="crypto-hero plotter-hero">
-          <div className="crypto-hero__media plotter-hero__media">
+        <header className="work-hub-hero work-hub-hero--fullbleed plotter-hero">
+          <div className="work-hub-hero__media plotter-hero__media">
             {PLOTTER_HERO_VIDEO ? (
               <video
                 className="plotter-hero__video"
@@ -684,14 +684,14 @@ export function PlotterHubPage() {
                 fill
                 priority
                 sizes="100vw"
-                className="crypto-hero__img"
+                className="work-hub-hero__img"
               />
             )}
           </div>
-          <div className="crypto-hero__content plotter-hero__content">
+          <div className="work-hub-hero__content plotter-hero__content">
             <p className="eyebrow">Work · {category.title}</p>
-            <h1 className="crypto-hero__title">Polargraph drawing machine</h1>
-            <p className="crypto-hero__subtitle plotter-hero__tagline">
+            <h1 className="work-hub-hero__title">Polargraph drawing machine</h1>
+            <p className="work-hub-hero__subtitle plotter-hero__tagline">
               {WORK_TAGLINE}
             </p>
             <p className="plotter-hero__lede">
@@ -719,11 +719,11 @@ export function PlotterHubPage() {
         <HubSubnav items={subnavItems} />
 
         {/* —— Core ideas (horizontal scroll on narrow viewports) —— */}
-        <section className="crypto-concepts" aria-label="Core ideas">
-          <div className="crypto-concepts__scroll">
+        <section className="work-hub-concepts" aria-label="Core ideas">
+          <div className="work-hub-concepts__scroll">
             {plotterConceptCards.map((card) => (
-              <div key={card.id} className="card crypto-concept-card">
-                <h2 className="crypto-concept-card__title">{card.title}</h2>
+              <div key={card.id} className="card work-hub-concept-card">
+                <h2 className="work-hub-concept-card__title">{card.title}</h2>
                 <p className="card-link__summary">{card.summary}</p>
               </div>
             ))}
@@ -732,17 +732,17 @@ export function PlotterHubPage() {
 
         {/* —— Project introduction (~400 words) —— */}
         <section
-          className="card crypto-essay-block"
+          className="card work-hub-essay-block"
           aria-labelledby="plotter-intro-heading"
         >
           <p className="eyebrow">Thread overview</p>
-          <h2 id="plotter-intro-heading" className="crypto-section__title">
+          <h2 id="plotter-intro-heading" className="work-hub-section__title">
             The polargraph as studio practice
           </h2>
-          <p className="crypto-essay-block__lead">
+          <p className="work-hub-essay-block__lead">
             Machines as collaborators — translation of code into physical ink.
           </p>
-          <div className="prose crypto-article__prose">
+          <div className="prose work-hub-article__prose">
             {plotterIntroParagraphs.map((para) => (
               <p key={para.slice(0, 48)}>{para}</p>
             ))}
@@ -756,10 +756,10 @@ export function PlotterHubPage() {
           aria-labelledby="plotter-timeline-heading"
         >
           <header className="plotter-timeline__header">
-            <h2 id="plotter-timeline-heading" className="crypto-section__title">
+            <h2 id="plotter-timeline-heading" className="work-hub-section__title">
               Journey
             </h2>
-            <p className="crypto-section__intro">
+            <p className="work-hub-section__intro">
               Milestones from the first &ldquo;will it draw?&rdquo; post (Feb 2023)
               through the current head-height mount (Mar 2026) — open the{" "}
               <Link href={PLOTTER_TIMELINE_PATH}>full development timeline</Link> for
@@ -819,10 +819,10 @@ export function PlotterHubPage() {
           aria-labelledby="plotter-media-heading"
         >
           <header className="plotter-media-gallery__header">
-            <h2 id="plotter-media-heading" className="crypto-section__title">
+            <h2 id="plotter-media-heading" className="work-hub-section__title">
               Build photos &amp; video
             </h2>
-            <p className="crypto-section__intro">
+            <p className="work-hub-section__intro">
               Documentation from the bench — initial tests, coverage maps, rebuilds,
               and portability runs. Grouped by phase; expand copy on the timeline page.
             </p>
@@ -869,10 +869,10 @@ export function PlotterHubPage() {
           aria-labelledby="plotter-series-heading"
         >
           <header className="plotter-series__header">
-            <h2 id="plotter-series-heading" className="crypto-section__title">
+            <h2 id="plotter-series-heading" className="work-hub-section__title">
               Output series
             </h2>
-            <p className="crypto-section__intro">
+            <p className="work-hub-section__intro">
               Families of plots from the machine — follow into projects or shop
               when an edition exists.
             </p>
@@ -974,11 +974,11 @@ export function PlotterHubPage() {
 
         {/* —— Elsewhere on site —— */}
         <section
-          className="card crypto-related-strip"
+          className="card work-hub-related-strip"
           aria-label="Related on this site"
         >
           <h2 className="card-link__title">Elsewhere on the site</h2>
-          <div className="crypto-related-strip__grid">
+          <div className="work-hub-related-strip__grid">
             {relatedOnSite.map((link) => (
               <CardLinkKind
                 key={link.href}
@@ -1000,7 +1000,7 @@ export function PlotterHubPage() {
         <ShopRail products={featuredProducts} title={shopRail.title} intro={shopRail.intro} />
 
         {/* —— Footer CTAs —— */}
-        <section className="card crypto-cta-strip">
+        <section className="card work-hub-cta-strip">
           <h2 className="card-link__title">Continue</h2>
           <p className="card-link__summary">
             Return to the Explorer, open the flagship project, or browse the postcard

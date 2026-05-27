@@ -250,6 +250,14 @@ p              { margin: 0; }
 .section__body         { margin-top: 2.5rem; }
 .section__body > * + * { margin-top: 2.5rem; }
 
+/* Category hub home: flush full-bleed hero under navbar (subpages keep default section spacing) */
+.section:has(.work-hub-page--category-home > .work-hub-hero--fullbleed) {
+  padding-top: 0;
+}
+.section .section__body:has(> .work-hub-page--category-home > .work-hub-hero--fullbleed) {
+  margin-top: 0;
+}
+
 
 /* 4. Site chrome -------------------------------------------- */
 
@@ -383,19 +391,19 @@ body.page-work-explorer:not(.work-explorer-scrolled) .site-header .nav a:hover {
   font-family: var(--font-display);
   letter-spacing: -0.02em;
 }
-.plotter-page .crypto-hero__title,
-.plotter-page .crypto-section__title {
+.plotter-page .work-hub-hero__title,
+.plotter-page .work-hub-section__title {
   font-family: var(--font-display);
   letter-spacing: -0.03em;
 }
-.photography-page .crypto-hero__title {
+.photography-page .work-hub-hero__title {
   font-family: var(--font-display);
   letter-spacing: 0.01em;
 }
-.photography-page .plotter-hero__tagline {
-  font-family: var(--font-handwritten);
-  font-size: 1.2rem;
-  line-height: 1.45;
+.photography-page .work-hub-hero__subtitle {
+  font-family: var(--font);
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 .card-link.site-link--shop .card-link__title {
   font-family: var(--font-display);
@@ -450,7 +458,7 @@ body.page-work-explorer:not(.work-explorer-scrolled) .site-header .nav a:hover {
 
 /* Ghost on dark / image backgrounds */
 .hero .btn-ghost,
-.crypto-hero .btn-ghost,
+.work-hub-hero .btn-ghost,
 .explorer-splash .btn-ghost {
   background: var(--color-ink-950-45);
   color: var(--text-on-dark);
@@ -459,7 +467,7 @@ body.page-work-explorer:not(.work-explorer-scrolled) .site-header .nav a:hover {
   text-shadow: 0 1px 2px color-mix(in srgb, var(--color-ink-950) 50%, transparent);
 }
 .hero .btn-ghost:hover,
-.crypto-hero .btn-ghost:hover,
+.work-hub-hero .btn-ghost:hover,
 .explorer-splash .btn-ghost:hover {
   background: var(--color-ink-950-62);
   color: var(--text-on-dark);
@@ -511,7 +519,8 @@ section.card {
 /* Category rails / teasers — soft shell, inner tiles carry weight */
 .plotter-shop-rail.card,
 .plotter-process-teaser.card,
-.crypto-related-strip.card {
+.work-hub-related-strip.card,
+.work-detail-related-strip.card {
   border: none;
   box-shadow: var(--shadow-soft);
   background: var(--surface-frosted);
@@ -663,21 +672,43 @@ section.card {
   background: var(--surface-page);
   color: var(--lane-primary-strong);
 }
-.crypto-hero .btn {
+.work-hub-hero .btn {
   background: var(--text-on-dark);
   color: var(--text-primary);
 }
-.crypto-hero .btn:hover {
+.work-hub-hero .btn:hover {
   background: var(--surface-page);
   color: var(--lane-primary-strong);
 }
 
+.photography-page .work-hub-hero--fullbleed .btn-ghost {
+  background: var(--color-cream-50-65);
+  color: var(--text-primary);
+  border-color: var(--border-card);
+  backdrop-filter: none;
+  text-shadow: none;
+}
+.photography-page .work-hub-hero--fullbleed .btn-ghost:hover {
+  background: var(--surface-elevated);
+  color: var(--lane-primary-strong);
+  border-color: var(--border-default);
+}
+
+.photography-page .work-hub-hero--fullbleed a.site-link.btn-ghost,
+.photography-page .work-hub-hero--fullbleed .site-link.btn-ghost {
+  color: inherit;
+}
+
 .hero__eyebrow,
-.crypto-hero .eyebrow {
+.work-hub-hero .eyebrow {
   color: var(--color-white-88);
   letter-spacing: 0.24em;
 }
 
+.photography-page .work-hub-hero--fullbleed .eyebrow {
+  color: var(--text-muted);
+  text-shadow: none;
+}
 .hero__credit {
   margin-top: 1.5rem;
   font-size: 0.75rem;
@@ -1803,17 +1834,30 @@ section.card {
 .card-link--compact .card-link__title { font-size: 1.05rem; }
 .card-link--compact .card-link__media { aspect-ratio: 3 / 2; }
 
-/* Crypto sub-homepage */
-.crypto-page {
+/* Work hub pages (category hubs) */
+.work-hub-page {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
 }
-.crypto-page .card-link__media {
+.work-hub-page .card-link__media {
+  aspect-ratio: 16 / 10;
+}
+.work-hub-page .work-hub-tile__media {
   aspect-ratio: 16 / 10;
 }
 
-.crypto-hero {
+/* Work detail pages (series + individual captures): shared tile cropping */
+.work-detail-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.work-detail-page .work-hub-tile__media {
+  aspect-ratio: 16 / 10;
+}
+
+.work-hub-hero {
   position: relative;
   min-height: min(52vh, 36rem);
   border-radius: var(--radius);
@@ -1823,13 +1867,79 @@ section.card {
   display: flex;
   flex-direction: column;
 }
-.crypto-hero__media {
+
+/* Full-bleed modifier (category hub homepages) */
+.work-hub-hero--fullbleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0;
+  border: none;
+  min-height: 75vh;
+}
+
+/* Non-photography flush heroes: align copy to content column, keep lower-third placement */
+.work-hub-page--category-home:not(.photography-page) .work-hub-hero--fullbleed .work-hub-hero__content {
+  width: 100%;
+  max-width: none;
+  margin-top: auto;
+  padding:
+    clamp(2rem, 5vw, 3.5rem)
+    max(1.5rem, calc((100vw - min(100%, var(--max))) / 2 + 1.5rem));
+}
+.work-hub-page--category-home:not(.photography-page) .work-hub-hero--fullbleed .work-hub-hero__title,
+.work-hub-page--category-home:not(.photography-page) .work-hub-hero--fullbleed .work-hub-hero__subtitle,
+.work-hub-page--category-home:not(.photography-page) .work-hub-hero--fullbleed .work-hub-hero__meta,
+.work-hub-page--category-home:not(.photography-page) .work-hub-hero--fullbleed .plotter-hero__lede,
+.work-hub-page--category-home:not(.photography-page) .work-hub-hero--fullbleed .plotter-hero__actions {
+  max-width: var(--max);
+}
+
+/* Photography flush hero: vertically centred, copy + actions in one row keyed to content column */
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__content {
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  max-width: none;
+  margin-top: 0;
+  padding:
+    clamp(2rem, 5vw, 3.5rem)
+    max(1.5rem, calc((100vw - min(100%, var(--max))) / 2 + 1.5rem));
+}
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__content-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem var(--gap);
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+}
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__copy {
+  flex: 1 1 20rem;
+  min-width: min(100%, 20rem);
+  max-width: 42rem;
+}
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__actions {
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  align-self: center;
+  margin: 0;
+}
+.photography-page .work-hub-hero--fullbleed .plotter-hero__lede {
+  max-width: 36rem;
+}
+.photography-page .work-hub-hero--fullbleed {
+  color: var(--text-primary);
+}
+.work-hub-hero__media {
   position: absolute;
   inset: 0;
   background: var(--color-ink-950);
 }
-.crypto-hero__img { object-fit: cover; opacity: 0.55; }
-.crypto-hero__media::after {
+.work-hub-hero__img { object-fit: cover; opacity: 0.55; }
+.work-hub-hero__media::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -1841,7 +1951,22 @@ section.card {
                     var(--color-ink-950-35) 45%,
                     var(--color-ink-950-92) 100%);
 }
-.crypto-hero__content {
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__media {
+  background: var(--color-neutral-400);
+}
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__img {
+  opacity: 1;
+}
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__media::after {
+  background:
+    radial-gradient(circle at 20% 20%,
+                    var(--lane-glow), transparent 55%),
+    linear-gradient(180deg,
+                    var(--color-white-78) 0%,
+                    transparent 35%,
+                    var(--color-cream-50-96) 100%);
+}
+.work-hub-hero__content {
   position: relative;
   z-index: 1;
   padding: clamp(2rem, 5vw, 3.5rem);
@@ -1854,20 +1979,23 @@ section.card {
   justify-content: flex-end;
   gap: 0.5rem;
 }
-.crypto-hero__title {
+.work-hub-hero__title {
   font-size: clamp(2.25rem, 5vw, 3.5rem);
   font-weight: 600;
   letter-spacing: -0.02em;
   margin: 0;
   text-wrap: balance;
 }
-.crypto-hero__subtitle {
+.work-hub-hero__subtitle {
   font-size: 1.1rem;
   line-height: 1.5;
   color: var(--color-white-88);
   margin: 0;
 }
-.crypto-hero__meta {
+.photography-page .work-hub-hero--fullbleed .work-hub-hero__subtitle {
+  color: var(--text-muted);
+}
+.work-hub-hero__meta {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -1875,13 +2003,13 @@ section.card {
   margin: 0.5rem 0 0;
 }
 
-.crypto-concepts__scroll {
+.work-hub-concepts__scroll {
   display: flex;
   gap: var(--gap);
   overflow-x: auto;
   padding-bottom: 0.25rem;
 }
-.crypto-page .crypto-concept-card.card {
+.work-hub-page .work-hub-concept-card.card {
   flex: 0 0 min(300px, 42vw);
   min-height: 9rem;
   padding: 1.35rem 1.5rem;
@@ -1892,36 +2020,115 @@ section.card {
   border-left: 3px solid var(--lane-primary);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
-.crypto-concept-card {
+
+/* Photography: rotating featured strip below intro */
+.photography-featured-strip {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+}
+.photography-featured-strip__media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--color-neutral-400);
+}
+.photography-featured-strip__img {
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 900ms ease;
+}
+.photography-featured-strip__img.is-active {
+  opacity: 1;
+}
+.photography-featured-strip__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    color-mix(in srgb, var(--color-ink-900) 35%, transparent) 65%,
+    var(--color-ink-950-75) 100%
+  );
+  pointer-events: none;
+}
+.photography-featured-strip__body {
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.1rem;
+  right: 1.25rem;
+  color: var(--text-on-dark);
+  text-shadow: 0 1px 2px color-mix(in srgb, var(--color-ink-950) 60%, transparent);
+}
+.photography-featured-strip__eyebrow {
+  margin: 0 0 0.15rem;
+}
+.photography-featured-strip__title {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  font-size: 1.1rem;
+  max-width: 52rem;
+}
+@media (min-width: 900px) {
+  .photography-featured-strip__media {
+    aspect-ratio: 21 / 9;
+  }
+  .photography-featured-strip__body {
+    left: 1.75rem;
+    bottom: 1.5rem;
+    right: 1.75rem;
+  }
+  .photography-featured-strip__title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Photography: rotating three-column row */
+.photography-rotating-row__grid {
+  display: grid;
+  gap: var(--gap);
+}
+.photography-rotating-row__card .work-hub-tile {
+  height: 100%;
+}
+@media (min-width: 900px) {
+  .photography-rotating-row__grid {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+}
+.work-hub-concept-card {
   flex: 0 0 min(300px, 42vw);
   padding: 1.25rem;
 }
-.crypto-concept-card__title {
+.work-hub-concept-card__title {
   font-size: 1rem;
   font-weight: 600;
   margin: 0 0 0.75rem;
 }
 @media (max-width: 640px) {
-  .crypto-concepts__scroll { flex-direction: column; }
-  .crypto-concept-card { flex: 1 1 auto; }
+  .work-hub-concepts__scroll { flex-direction: column; }
+  .work-hub-concept-card { flex: 1 1 auto; }
 }
 
-.crypto-article__prose {
+.work-hub-article__prose,
+.work-detail-article__prose {
   font-size: 1.05rem;
   line-height: 1.75;
   max-width: 42rem;
 }
-.crypto-article__rule {
+.work-hub-article__rule {
   border: none;
   border-top: 1px solid var(--border-default);
   margin: 2rem 0;
 }
-.crypto-article__essay-title {
+.work-hub-article__essay-title {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0 0 0.5rem;
 }
-.crypto-article__essay-date {
+.work-hub-article__essay-date {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -1929,53 +2136,59 @@ section.card {
   margin: 0 0 1.5rem;
 }
 
-.crypto-related-strip {
+.work-hub-related-strip,
+.work-detail-related-strip {
   padding: 1.5rem;
 }
-.crypto-related-strip__grid {
+.work-hub-related-strip__grid,
+.work-detail-related-strip__grid {
   display: grid;
   gap: var(--gap);
   margin-top: 1.25rem;
 }
 @media (min-width: 640px) {
-  .crypto-related-strip__grid { grid-template-columns: repeat(2, 1fr); }
+  .work-hub-related-strip__grid,
+  .work-detail-related-strip__grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 960px) {
-  .crypto-related-strip__grid { grid-template-columns: repeat(4, 1fr); }
+  .work-hub-related-strip__grid,
+  .work-detail-related-strip__grid { grid-template-columns: repeat(4, 1fr); }
 }
 
-.crypto-essay-stack {
+.work-hub-essay-stack {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.crypto-essay-block {
+.work-hub-essay-block,
+.work-detail-essay-block {
   padding: 1.75rem 2rem;
 }
-.crypto-essay-block__lead {
+.work-hub-essay-block__lead,
+.work-detail-essay-block__lead {
   font-size: 1.15rem;
   line-height: 1.55;
   color: var(--ink);
   margin: 0.5rem 0 1.25rem;
   max-width: 40rem;
 }
-.crypto-essay-part {
+.work-hub-essay-part {
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 1px solid var(--border-default);
 }
-.crypto-essay-part:first-of-type {
+.work-hub-essay-part:first-of-type {
   margin-top: 1.5rem;
   padding-top: 0;
   border-top: none;
 }
-.crypto-essay-part__title {
+.work-hub-essay-part__title {
   font-size: 1.15rem;
   font-weight: 600;
   margin: 0 0 1rem;
   letter-spacing: -0.01em;
 }
-.crypto-pullquote {
+.work-hub-pullquote {
   margin: 1.5rem 0 0;
   padding: 1rem 1.25rem;
   border-left: 3px solid var(--lane-primary);
@@ -1985,32 +2198,36 @@ section.card {
   font-style: italic;
   max-width: 36rem;
 }
-.crypto-pullquote p { margin: 0; }
+.work-hub-pullquote p { margin: 0; }
 
-.crypto-section {
+.work-hub-section,
+.work-detail-section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding: 2rem 0 0;
   border-top: 1px solid var(--border-default);
 }
-.crypto-section__header {
+.work-hub-section__header,
+.work-detail-section__header {
   max-width: 42rem;
 }
-.crypto-section__title {
+.work-hub-section__title,
+.work-detail-section__title {
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 600;
   margin: 0 0 0.75rem;
   letter-spacing: -0.02em;
   text-wrap: balance;
 }
-.crypto-section__intro {
+.work-hub-section__intro,
+.work-detail-section__intro {
   font-size: 1.05rem;
   line-height: 1.6;
   color: var(--text-muted);
   margin: 0;
 }
-.crypto-section__group-title {
+.work-hub-section__group-title {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -2018,19 +2235,118 @@ section.card {
   margin: 0 0 1rem;
   font-weight: 600;
 }
-.crypto-work-grid {
+.work-hub-grid,
+.work-detail-grid {
   display: grid;
   gap: var(--gap);
   grid-template-columns: 1fr;
 }
 @media (min-width: 560px) {
-  .crypto-work-grid { grid-template-columns: repeat(2, 1fr); }
+  .work-hub-grid,
+  .work-detail-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 900px) {
-  .crypto-work-grid { grid-template-columns: repeat(3, 1fr); }
+  .work-hub-grid,
+  .work-detail-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
-.crypto-work-tile,
+.catalog-grid-controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+.catalog-grid-controls__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap);
+  justify-content: space-between;
+}
+.catalog-grid-controls__search input {
+  min-width: min(100%, 16rem);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 4px;
+  font: inherit;
+}
+.catalog-grid-controls__count {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+.catalog-grid-controls__pager {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  flex-wrap: wrap;
+}
+.catalog-grid-controls__btn {
+  font: inherit;
+  padding: 0.4rem 0.85rem;
+  cursor: pointer;
+}
+.catalog-grid-controls__btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.catalog-grid-controls__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.catalog-grid-controls__chip {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+}
+.catalog-grid-controls__chip--active {
+  background: var(--lane-primary);
+  color: var(--text-on-dark);
+  border-color: var(--lane-primary);
+}
+.work-hub-tile__badge--nft {
+  top: 0.5rem;
+  left: 0.5rem;
+  right: auto;
+  text-transform: none;
+}
+.work-hub-tile__badge--print {
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.work-hub-tile__badge--nft + .work-hub-tile__badge--print {
+  top: 2.35rem;
+  right: 0.5rem;
+}
+.photography-hub__highlights,
+.photography-hub__curated,
+.photography-archive {
+  margin-top: 0.5rem;
+}
+.photography-hub__group-lede {
+  margin: -0.25rem 0 0.75rem;
+  max-width: 42rem;
+}
+.photography-intro__more {
+  margin: 0.75rem 0 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.work-hub-tile,
 .plotter-timeline__card,
 .plotter-series__card {
   display: flex;
@@ -2044,10 +2360,10 @@ section.card {
   box-shadow: var(--shadow-soft);
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
-.crypto-work-tile {
+.work-hub-tile {
   text-decoration: none;
 }
-.crypto-work-tile:hover,
+.work-hub-tile:hover,
 .plotter-timeline__card-link:hover,
 .plotter-timeline__card:has(.plotter-timeline__card-link:hover),
 .plotter-series__card:hover {
@@ -2055,16 +2371,16 @@ section.card {
   box-shadow: var(--shadow-lift);
   transform: translateY(-1px);
 }
-.crypto-work-tile--muted {
+.work-hub-tile--muted {
   opacity: 0.85;
   cursor: default;
 }
-.crypto-work-tile__media {
+.work-hub-tile__media {
   position: relative;
   aspect-ratio: 4 / 3;
   background: var(--color-neutral-400);
 }
-.crypto-work-tile__media--empty {
+.work-hub-tile__media--empty {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2076,13 +2392,13 @@ section.card {
     var(--color-neutral-300) 16px
   );
 }
-.crypto-work-tile__placeholder-label {
+.work-hub-tile__placeholder-label {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--text-muted);
 }
-.crypto-work-tile__platform {
+.work-hub-tile__platform {
   position: absolute;
   bottom: 0.5rem;
   left: 0.5rem;
@@ -2094,20 +2410,41 @@ section.card {
   color: var(--text-on-dark);
   border-radius: 2px;
 }
-.crypto-work-tile__body {
+.work-hub-tile__badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  background: var(--lane-primary);
+  color: var(--text-on-dark);
+  border-radius: 2px;
+  z-index: 1;
+}
+.work-hub-tile__badge--print {
+  text-transform: none;
+}
+.work-hub-tile__platform + .work-hub-tile__badge--print,
+.work-hub-tile__badge--print:has(+ .work-hub-tile__platform) {
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.work-hub-tile__body {
   padding: 1rem 1.15rem 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
   flex: 1;
 }
-.crypto-work-tile__title {
+.work-hub-tile__title {
   font-size: 1.05rem;
   font-weight: 600;
   margin: 0;
   line-height: 1.3;
 }
-.crypto-work-tile__soon {
+.work-hub-tile__soon {
   margin: 0.5rem 0 0;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -2115,14 +2452,14 @@ section.card {
   color: var(--text-muted);
 }
 
-.crypto-outputs {
+.work-hub-outputs {
   display: grid;
   gap: 2rem;
 }
 @media (min-width: 700px) {
-  .crypto-outputs { grid-template-columns: 1fr 1fr; }
+  .work-hub-outputs { grid-template-columns: 1fr 1fr; }
 }
-.crypto-outputs__grid {
+.work-hub-outputs__grid {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -2144,7 +2481,7 @@ section.card {
   color: var(--lane-primary);
 }
 
-.crypto-cta-strip { text-align: left; }
+.work-hub-cta-strip { text-align: left; }
 
 /* Plotter / Polargraph category homepage */
 .plotter-page .plotter-hero__content,
@@ -2161,6 +2498,102 @@ section.card {
 }
 .plotter-hero__tagline {
   max-width: 36rem;
+}
+@media (max-width: 720px) {
+  .photography-page .work-hub-hero--fullbleed .work-hub-hero__content-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .photography-page .work-hub-hero--fullbleed .work-hub-hero__actions {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .photography-page .work-hub-hero--fullbleed .work-hub-hero__content {
+    padding: 1.5rem 1.25rem 1.75rem;
+  }
+  .photography-page .work-hub-hero--fullbleed .work-hub-hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .photography-page .work-hub-hero--fullbleed .work-hub-hero__actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+.practice-history {
+  margin-top: 1.5rem;
+}
+.practice-history__summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+.practice-history__summary::-webkit-details-marker {
+  display: none;
+}
+.practice-history__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.practice-history__hint {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.practice-history[open] .practice-history__hint {
+  display: none;
+}
+.practice-history > .work-hub-concepts,
+.practice-history > .plotter-timeline,
+.practice-history__photez {
+  margin-top: 1.5rem;
+}
+.practice-history__photez-links {
+  margin-top: 1.25rem;
+}
+.photography-prints__meta {
+  margin: 0.35rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.photography-prints__actions {
+  margin-top: 1.25rem;
+}
+
+.photography-writing-page__lead {
+  max-width: 42rem;
+  margin-bottom: 0.75rem;
+}
+
+.photography-archive__actions {
+  margin-top: 1.25rem;
+}
+.photograph-page__hero {
+  margin-bottom: 1.5rem;
+}
+.photograph-page__print-tiers {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+@media (min-width: 640px) {
+  .photograph-page__print-tiers {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+}
+.photograph-page__print-tier {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.photograph-page__print-tier .btn {
+  align-self: flex-start;
+  margin-top: auto;
 }
 .plotter-hero__lede {
   margin: 0.5rem 0 0;
@@ -2646,7 +3079,7 @@ a.site-link.btn-ghost,
   color: inherit;
 }
 .hero .site-link.btn-ghost,
-.crypto-hero .site-link.btn-ghost,
+.work-hub-hero .site-link.btn-ghost,
 .explorer-splash .site-link.btn-ghost {
   color: var(--text-on-dark);
 }
@@ -2748,11 +3181,6 @@ a.site-link.btn-ghost,
 }
 .card-link.site-link--external {
   border-left: 3px dotted var(--text-muted);
-}
-
-.card-link.site-link--new-tab .card-link__footer,
-.card-link.site-link--new-tab .explorer-output-card__link {
-  /* legacy text hints hidden when badge present */
 }
 
 .site-link--card.site-link--text {

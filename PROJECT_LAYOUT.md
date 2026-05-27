@@ -53,7 +53,10 @@ content/AUDIT.md                    # manifest → file map
 app/work/categories-data.js
 app/work/categories.js
 app/work/manifest.json
-app/work/registry.js          # empty — legacy shim
+data/                         # CSV catalog source (photographs, series, products)
+content/catalog/              # GENERATED page payloads (content:sync)
+app/work/categories-data.base.js   # hand-maintained category structure
+app/work/categories-data.generated.js  # GENERATED photography slugs
 app/work/ADDING.md
 components/work/layouts/       # ProseProjectLayout, ProjectRichLayout, …
 components/work/pages/        # plotter, photography, physical-objects, reflections hubs

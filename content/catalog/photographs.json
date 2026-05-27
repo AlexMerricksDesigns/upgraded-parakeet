@@ -1,0 +1,5150 @@
+{
+  "same_spot_again": {
+    "layout": "photograph",
+    "meta": {
+      "title": "He Fired into the Same Spot Again",
+      "intro": "First published NFT, on Ethereum via Blochain Art Exchange",
+      "description": "First published NFT, on Ethereum via Blochain Art Exchange",
+      "date": "2021",
+      "series": "BAE",
+      "tags": [
+        "photograph, manchester"
+      ]
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "BAE",
+      "label": "He Fired into the Same Spot Again"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/0(0 ETH) - He Fired into the Same Spot Again.jpg",
+      "alt": "He Fired into the Same Spot Again — Blockchain Art Exchange"
+    },
+    "story": {
+      "eyebrow": "From the Blockchain Art Exchange series, 2021",
+      "paragraphs": [
+        "First published NFT, on Ethereum via Blochain Art Exchange"
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on BAE.",
+      "link": null,
+      "platform": "BAE",
+      "contract": "0x3edf71a31b80ff6a45fdb0858ec54de98df047aa",
+      "tokenId": "893"
+    }
+  },
+  "dictionary_animation_rising_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "He's Rising",
+      "intro": "Genesis' NFT mint on the Tezos blockchain using the hictenunc open contract.",
+      "description": "Genesis' NFT mint on the Tezos blockchain using the hictenunc open contract.",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "He's Rising"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/0 - He's Rising.gif",
+      "alt": "He's Rising — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Genesis' NFT mint on the Tezos blockchain using the hictenunc open contract."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/54604",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "54604"
+    }
+  },
+  "brighton_fox": {
+    "layout": "photograph",
+    "meta": {
+      "title": "A Foxy Afternoon",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": [
+        "fox"
+      ]
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "A Foxy Afternoon"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/1 - A Foxy Afternoon.jpg",
+      "alt": "A Foxy Afternoon — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [
+      {
+        "id": "open",
+        "label": "Open print",
+        "summary": "Archival open edition — standard sizes on request.",
+        "href": "/work/photography/products/limited-prints",
+        "cta": "Request open print",
+        "kind": "shop"
+      },
+      {
+        "id": "limited",
+        "label": "Limited signed",
+        "summary": "Signed limited edition — numbered when the run is fixed.",
+        "href": "/work/photography/products/limited-prints",
+        "cta": "Limited edition",
+        "kind": "shop"
+      }
+    ],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/68118",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "68118"
+    }
+  },
+  "screw_tightens": {
+    "layout": "photograph",
+    "meta": {
+      "title": "The screw tightens",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "The screw tightens"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/3 - The Screw Tightens.png",
+      "alt": "The screw tightens — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/87939",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "87939"
+    }
+  },
+  "brighton_gull": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Brighton Gull",
+      "intro": "From the Kalamint series.",
+      "description": "",
+      "date": "2021",
+      "series": "Kalamint",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Kalamint",
+      "label": "Brighton Gull"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse/0 - Brighton Gull.jpg",
+      "alt": "Brighton Gull — Kalamint"
+    },
+    "story": {
+      "eyebrow": "From the Kalamint series, 2021",
+      "paragraphs": [
+        "Part of the Kalamint collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on kalamint.",
+      "link": "https://objkt.com/tokens/KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse/9607",
+      "platform": "kalamint",
+      "contract": "KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse",
+      "tokenId": "9607"
+    }
+  },
+  "birds_in_brighton_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Herring Gull",
+      "intro": "From the Birds in Brighton series.",
+      "description": "",
+      "date": "",
+      "series": "birds-in-brighton",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "birds-in-brighton",
+      "label": "Herring Gull"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/5 - Herring Gull.jpg",
+      "alt": "Herring Gull — Birds in Brighton"
+    },
+    "story": {
+      "eyebrow": "From the Birds in Brighton series,",
+      "paragraphs": [
+        "Part of the Birds in Brighton collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/104482",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "104482"
+    }
+  },
+  "birds_in_brighton_02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Starling",
+      "intro": "From the Birds in Brighton series.",
+      "description": "",
+      "date": "",
+      "series": "birds-in-brighton",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "birds-in-brighton",
+      "label": "Starling"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/6 - Starling.jpg",
+      "alt": "Starling — Birds in Brighton"
+    },
+    "story": {
+      "eyebrow": "From the Birds in Brighton series,",
+      "paragraphs": [
+        "Part of the Birds in Brighton collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/104496",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "104496"
+    }
+  },
+  "birds_in_brighton_03": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Jay",
+      "intro": "From the Birds in Brighton series.",
+      "description": "",
+      "date": "",
+      "series": "birds-in-brighton",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "birds-in-brighton",
+      "label": "Jay"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/7 - Jay.jpg",
+      "alt": "Jay — Birds in Brighton"
+    },
+    "story": {
+      "eyebrow": "From the Birds in Brighton series,",
+      "paragraphs": [
+        "Part of the Birds in Brighton collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/104503",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "104503"
+    }
+  },
+  "birds_in_brighton_04": {
+    "layout": "photograph",
+    "meta": {
+      "title": "House Sparrow",
+      "intro": "From the Birds in Brighton series.",
+      "description": "",
+      "date": "",
+      "series": "birds-in-brighton",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "birds-in-brighton",
+      "label": "House Sparrow"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/8 - House Sparrow.jpg",
+      "alt": "House Sparrow — Birds in Brighton"
+    },
+    "story": {
+      "eyebrow": "From the Birds in Brighton series,",
+      "paragraphs": [
+        "Part of the Birds in Brighton collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/104507",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "104507"
+    }
+  },
+  "hicetnunc_minting_events_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "oneHENdreddays",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "oneHENdreddays"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/9 - oneHENdreddays.jpg",
+      "alt": "oneHENdreddays — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/120443",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "120443"
+    }
+  },
+  "bristol_rainshine_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Part 1 Seagull at Pero's Bridge",
+      "intro": "From the Bristol Rainshine series.",
+      "description": "",
+      "date": "",
+      "series": "bristol-rainshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "bristol-rainshine",
+      "label": "Part 1 Seagull at Pero's Bridge"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/10 - Bristol_s Rainshine, Millenium Part 1 Seagull at Pero_s Bridge.JPG",
+      "alt": "Part 1 Seagull at Pero's Bridge — Bristol Rainshine"
+    },
+    "story": {
+      "eyebrow": "From the Bristol Rainshine series,",
+      "paragraphs": [
+        "Part of the Bristol Rainshine collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/130353",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "130353"
+    }
+  },
+  "bristol_rainshine_02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Part 2 Planetarium @Bristol",
+      "intro": "From the Bristol Rainshine series.",
+      "description": "",
+      "date": "",
+      "series": "bristol-rainshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "bristol-rainshine",
+      "label": "Part 2 Planetarium @Bristol"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/11 - Bristol_s Rainshine, Millenium Part 2 Planetarium @Bristol.jpg",
+      "alt": "Part 2 Planetarium @Bristol — Bristol Rainshine"
+    },
+    "story": {
+      "eyebrow": "From the Bristol Rainshine series,",
+      "paragraphs": [
+        "Part of the Bristol Rainshine collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/130362",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "130362"
+    }
+  },
+  "bristol_rainshine_03": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Part3",
+      "intro": "From the Bristol Rainshine series.",
+      "description": "",
+      "date": "",
+      "series": "bristol-rainshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "bristol-rainshine",
+      "label": "Part3"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/12.JPG",
+      "alt": "Part3 — Bristol Rainshine"
+    },
+    "story": {
+      "eyebrow": "From the Bristol Rainshine series,",
+      "paragraphs": [
+        "Part of the Bristol Rainshine collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/130370",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "130370"
+    }
+  },
+  "rip_400d_mosaic": {
+    "layout": "photograph",
+    "meta": {
+      "title": "RIP 400D",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "RIP 400D"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/13 - RIP 400D.jpg",
+      "alt": "RIP 400D — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/141204",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "141204"
+    }
+  },
+  "photography_changes_everything": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Photography Chnages Everything",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Photography Chnages Everything"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/14 - Photography Changes Everything.jpg",
+      "alt": "Photography Chnages Everything — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/151210",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "151210"
+    }
+  },
+  "owl_above": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Owl Above",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Owl Above"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/15 - Owl Above.tiff",
+      "alt": "Owl Above — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/160358",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "160358"
+    }
+  },
+  "sun_bloodened_sky": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Sun Bloodened Sky",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Sun Bloodened Sky"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/16 - Sun Bloodened Skyjpg.jpg",
+      "alt": "Sun Bloodened Sky — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/169021",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "169021"
+    }
+  },
+  "objkt_key": {
+    "layout": "photograph",
+    "meta": {
+      "title": "X. S. M. OBJKT Key",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "X. S. M. OBJKT Key"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/17 - X. S . M. Objkt Key.htm",
+      "alt": "X. S. M. OBJKT Key — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/171701",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "171701"
+    }
+  },
+  "country_playing_field": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Country playing field",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Country playing field"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/18 - Country Playing Field.jpg",
+      "alt": "Country playing field — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/173877",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "173877"
+    }
+  },
+  "swirled_sunset": {
+    "layout": "photograph",
+    "meta": {
+      "title": "swirled sunset",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "swirled sunset"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/19 - Swirled Sunset.jpg",
+      "alt": "swirled sunset — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/180802",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "180802"
+    }
+  },
+  "decayed_visage": {
+    "layout": "photograph",
+    "meta": {
+      "title": "decayed visage",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "decayed visage"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/20 - Decayed Visage.jpg",
+      "alt": "decayed visage — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/204438",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "204438"
+    }
+  },
+  "brighton_triptychs_portraits_pigeon": {
+    "layout": "photograph",
+    "meta": {
+      "title": "pigeon bath",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "pigeon bath"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/21 - P-Pigeon Bath.jpg",
+      "alt": "pigeon bath — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216669",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216669"
+    }
+  },
+  "brighton_triptychs_portraits_detectorist": {
+    "layout": "photograph",
+    "meta": {
+      "title": "detectorist",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "detectorist"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/22 - P-Detectorist.jpg",
+      "alt": "detectorist — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216673",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216673"
+    }
+  },
+  "brighton_triptychs_portraits_seagulls": {
+    "layout": "photograph",
+    "meta": {
+      "title": "seagulls",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "seagulls"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/23 - P-Seagulls.jpg",
+      "alt": "seagulls — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216676",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216676"
+    }
+  },
+  "brighton_triptychs_portraits_triptych": {
+    "layout": "photograph",
+    "meta": {
+      "title": "brighton portraits tryp",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "brighton portraits tryp"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/24 - P-Brighton Sunrise Beach 1 Portraits.png",
+      "alt": "brighton portraits tryp — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216684",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216684"
+    }
+  },
+  "brighton_triptychs_landscapes_seagull_flying": {
+    "layout": "photograph",
+    "meta": {
+      "title": "sea gull",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "sea gull"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/25 - Sea L-Gull.jpg",
+      "alt": "sea gull — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216686",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216686"
+    }
+  },
+  "brighton_triptychs_landscapes_detectorist": {
+    "layout": "photograph",
+    "meta": {
+      "title": "detectorist",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "detectorist"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/26 - L-Detectorist.jpg",
+      "alt": "detectorist — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216688",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216688"
+    }
+  },
+  "brighton_triptychs_landscapes_seagulls": {
+    "layout": "photograph",
+    "meta": {
+      "title": "seagulls",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "seagulls"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/27 - L-Seagulls.jpg",
+      "alt": "seagulls — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216695",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216695"
+    }
+  },
+  "brighton_triptychs_landscapes_triptych": {
+    "layout": "photograph",
+    "meta": {
+      "title": "brighton landscapes tryp",
+      "intro": "From the Brighton triptychs series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-triptychs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-triptychs",
+      "label": "brighton landscapes tryp"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/28 - Brighton Sunrise Beach 1 Landscapes-M.png",
+      "alt": "brighton landscapes tryp — Brighton triptychs"
+    },
+    "story": {
+      "eyebrow": "From the Brighton triptychs series,",
+      "paragraphs": [
+        "Part of the Brighton triptychs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/216705",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "216705"
+    }
+  },
+  "brighton_sunshine_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Sheridan house",
+      "intro": "From the Brighton sunshine series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-sunshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-sunshine",
+      "label": "Sheridan house"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/29 - Sheridan House.jpg",
+      "alt": "Sheridan house — Brighton sunshine"
+    },
+    "story": {
+      "eyebrow": "From the Brighton sunshine series,",
+      "paragraphs": [
+        "Part of the Brighton sunshine collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/227850",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "227850"
+    }
+  },
+  "brighton_sunshine_02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "western road",
+      "intro": "From the Brighton sunshine series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-sunshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-sunshine",
+      "label": "western road"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/30 - 130 Western Road.jpg",
+      "alt": "western road — Brighton sunshine"
+    },
+    "story": {
+      "eyebrow": "From the Brighton sunshine series,",
+      "paragraphs": [
+        "Part of the Brighton sunshine collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/227859",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "227859"
+    }
+  },
+  "brighton_sunshine_03": {
+    "layout": "photograph",
+    "meta": {
+      "title": "jubilee clock tower",
+      "intro": "From the Brighton sunshine series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-sunshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-sunshine",
+      "label": "jubilee clock tower"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/31 - Jubilee Clock Tower.jpg",
+      "alt": "jubilee clock tower — Brighton sunshine"
+    },
+    "story": {
+      "eyebrow": "From the Brighton sunshine series,",
+      "paragraphs": [
+        "Part of the Brighton sunshine collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/227861",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "227861"
+    }
+  },
+  "brighton_sunshine_04": {
+    "layout": "photograph",
+    "meta": {
+      "title": "No. 4 and 2 Richmond Terrace",
+      "intro": "From the Brighton sunshine series.",
+      "description": "",
+      "date": "",
+      "series": "brighton-sunshine",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-sunshine",
+      "label": "No. 4 and 2 Richmond Terrace"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/32 - No. 4 and 2 Richmond Terrace.jpg",
+      "alt": "No. 4 and 2 Richmond Terrace — Brighton sunshine"
+    },
+    "story": {
+      "eyebrow": "From the Brighton sunshine series,",
+      "paragraphs": [
+        "Part of the Brighton sunshine collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/227868",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "227868"
+    }
+  },
+  "murder_of_crows_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "1",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "1"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/33 - A Murder of Crows - 1.jpg",
+      "alt": "1 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230014",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230014"
+    }
+  },
+  "murder_of_crows_02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "2",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "2"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/34 - A Murder of Crows - 2.jpg",
+      "alt": "2 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230031",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230031"
+    }
+  },
+  "murder_of_crows_03": {
+    "layout": "photograph",
+    "meta": {
+      "title": "3",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "3"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/35 - A Murder of Crows - 3.jpg",
+      "alt": "3 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230035",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230035"
+    }
+  },
+  "murder_of_crows_04": {
+    "layout": "photograph",
+    "meta": {
+      "title": "4",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "4"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/36 - A Murder of Crows - 4.jpg",
+      "alt": "4 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230043",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230043"
+    }
+  },
+  "murder_of_crows_05": {
+    "layout": "photograph",
+    "meta": {
+      "title": "5",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "5"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/37 - A Murder of Crows - 5.jpg",
+      "alt": "5 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230044",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230044"
+    }
+  },
+  "murder_of_crows_06": {
+    "layout": "photograph",
+    "meta": {
+      "title": "6",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "6"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/38 - A Murder of Crows - 6.jpg",
+      "alt": "6 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230048",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230048"
+    }
+  },
+  "murder_of_crows_07": {
+    "layout": "photograph",
+    "meta": {
+      "title": "7",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "7"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/39 - A Murder of Crows - 7.jpg",
+      "alt": "7 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230054",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230054"
+    }
+  },
+  "murder_of_crows_08": {
+    "layout": "photograph",
+    "meta": {
+      "title": "8",
+      "intro": "From the A Murder of Crows series.",
+      "description": "",
+      "date": "",
+      "series": "murder-of-crows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "murder-of-crows",
+      "label": "8"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/40 - A Murder of Crows - 8.jpg",
+      "alt": "8 — A Murder of Crows"
+    },
+    "story": {
+      "eyebrow": "From the A Murder of Crows series,",
+      "paragraphs": [
+        "Part of the A Murder of Crows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/230061",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "230061"
+    }
+  },
+  "frame_animation_animated_pngs_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Camera's Watching",
+      "intro": "From the Animation series.",
+      "description": "",
+      "date": "",
+      "series": "animation",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "animation",
+      "label": "Camera's Watching"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/41 - Camera's Watching.png",
+      "alt": "Camera's Watching — Animation"
+    },
+    "story": {
+      "eyebrow": "From the Animation series,",
+      "paragraphs": [
+        "Part of the Animation collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/255486",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "255486"
+    }
+  },
+  "sad_state": {
+    "layout": "photograph",
+    "meta": {
+      "title": "WHAT A SAD STATE OF AFFAIRS",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "WHAT A SAD STATE OF AFFAIRS"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/42 - WHAT A SAD STATE OF AFFAIRS.jpg",
+      "alt": "WHAT A SAD STATE OF AFFAIRS — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/259415",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "259415"
+    }
+  },
+  "self_portrait": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Self portrait",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Self portrait"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/43 - Self Portrait.jpg",
+      "alt": "Self portrait — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/261442",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "261442"
+    }
+  },
+  "swirling_bokeh": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Swirling Bokeh",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Swirling Bokeh"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/44 - Swirling Bokeh.jpg",
+      "alt": "Swirling Bokeh — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/282210",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "282210"
+    }
+  },
+  "urtica_dioica": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Urtica Dioica",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Urtica Dioica"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/45 - Urtica dioica.jpg",
+      "alt": "Urtica Dioica — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/340060",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "340060"
+    }
+  },
+  "black_white_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "The Richmond Building",
+      "intro": "From the Black and Whites series.",
+      "description": "",
+      "date": "",
+      "series": "black-and-whites",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "black-and-whites",
+      "label": "The Richmond Building"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/46 - The Richmond Building.jpg",
+      "alt": "The Richmond Building — Black and Whites"
+    },
+    "story": {
+      "eyebrow": "From the Black and Whites series,",
+      "paragraphs": [
+        "Part of the Black and Whites collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/348314",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "348314"
+    }
+  },
+  "black_white_02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Lawrence Hill Train Station",
+      "intro": "From the Black and Whites series.",
+      "description": "",
+      "date": "",
+      "series": "black-and-whites",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "black-and-whites",
+      "label": "Lawrence Hill Train Station"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/47 - Lawrence Hill Train Station.jpg",
+      "alt": "Lawrence Hill Train Station — Black and Whites"
+    },
+    "story": {
+      "eyebrow": "From the Black and Whites series,",
+      "paragraphs": [
+        "Part of the Black and Whites collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/348395",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "348395"
+    }
+  },
+  "black_white_03": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Cotham Gardens",
+      "intro": "From the Black and Whites series.",
+      "description": "",
+      "date": "",
+      "series": "black-and-whites",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "black-and-whites",
+      "label": "Cotham Gardens"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/48 - Cotham Gardens.jpg",
+      "alt": "Cotham Gardens — Black and Whites"
+    },
+    "story": {
+      "eyebrow": "From the Black and Whites series,",
+      "paragraphs": [
+        "Part of the Black and Whites collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/352177",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "352177"
+    }
+  },
+  "black_white_04": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Near Kames, Tighnabruaich",
+      "intro": "From the Black and Whites series.",
+      "description": "",
+      "date": "",
+      "series": "black-and-whites",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "black-and-whites",
+      "label": "Near Kames, Tighnabruaich"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/49 - Near Kames, Tighnabruaich.jpg",
+      "alt": "Near Kames, Tighnabruaich — Black and Whites"
+    },
+    "story": {
+      "eyebrow": "From the Black and Whites series,",
+      "paragraphs": [
+        "Part of the Black and Whites collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/352225",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "352225"
+    }
+  },
+  "unintentional_camera_movements_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "-",
+      "intro": "From the Unintentional camera movements series.",
+      "description": "",
+      "date": "",
+      "series": "ucm",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "ucm",
+      "label": "-"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/50 - -.jpg",
+      "alt": "- — Unintentional camera movements"
+    },
+    "story": {
+      "eyebrow": "From the Unintentional camera movements series,",
+      "paragraphs": [
+        "Part of the Unintentional camera movements collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/378909",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "378909"
+    }
+  },
+  "unintentional_camera_movements_02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "-",
+      "intro": "From the Unintentional camera movements series.",
+      "description": "",
+      "date": "",
+      "series": "ucm",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "ucm",
+      "label": "-"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/51 - -.jpg",
+      "alt": "- — Unintentional camera movements"
+    },
+    "story": {
+      "eyebrow": "From the Unintentional camera movements series,",
+      "paragraphs": [
+        "Part of the Unintentional camera movements collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/388419",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "388419"
+    }
+  },
+  "unintentional_camera_movements_03": {
+    "layout": "photograph",
+    "meta": {
+      "title": "18/09/2021",
+      "intro": "From the Unintentional camera movements series.",
+      "description": "",
+      "date": "",
+      "series": "ucm",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "ucm",
+      "label": "18/09/2021"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/52 - 18-09-21.jpg",
+      "alt": "18/09/2021 — Unintentional camera movements"
+    },
+    "story": {
+      "eyebrow": "From the Unintentional camera movements series,",
+      "paragraphs": [
+        "Part of the Unintentional camera movements collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/388432",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "388432"
+    }
+  },
+  "bokeh_experiments": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Twisted Focus",
+      "intro": "From the Unintentional camera movements series.",
+      "description": "",
+      "date": "",
+      "series": "ucm",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "ucm",
+      "label": "Twisted Focus"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/53 - Twisted Focus.jpg",
+      "alt": "Twisted Focus — Unintentional camera movements"
+    },
+    "story": {
+      "eyebrow": "From the Unintentional camera movements series,",
+      "paragraphs": [
+        "Part of the Unintentional camera movements collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/417386",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "417386"
+    }
+  },
+  "frame_animation_flowers_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Sunset Flower",
+      "intro": "From the Animation series.",
+      "description": "",
+      "date": "",
+      "series": "animation",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "animation",
+      "label": "Sunset Flower"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/54 - Sunset Flower.mp4",
+      "alt": "Sunset Flower — Animation"
+    },
+    "story": {
+      "eyebrow": "From the Animation series,",
+      "paragraphs": [
+        "Part of the Animation collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/418216",
+      "platform": "objkt",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "418216"
+    }
+  },
+  "macro_experiments": {
+    "layout": "photograph",
+    "meta": {
+      "title": "At the point",
+      "intro": "From the Macro series.",
+      "description": "",
+      "date": "",
+      "series": "macro",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "macro",
+      "label": "At the point"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/55 - At the Point.jpg",
+      "alt": "At the point — Macro"
+    },
+    "story": {
+      "eyebrow": "From the Macro series,",
+      "paragraphs": [
+        "Part of the Macro collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1AFq5XorPduoYyWxs5gEyrFK6fVjJVbtCj/1143",
+      "platform": "objkt",
+      "contract": "KT1AFq5XorPduoYyWxs5gEyrFK6fVjJVbtCj",
+      "tokenId": "1143"
+    }
+  },
+  "untitled_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "untitled",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "untitled"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/56 - untitled.jpg",
+      "alt": "untitled — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/499999",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "499999"
+    }
+  },
+  "reflections_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "a view from a bridge",
+      "intro": "From the Versum series.",
+      "description": "",
+      "date": "2022",
+      "series": "versum",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "versum",
+      "label": "a view from a bridge"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/57 - a view from a bridge.jpg",
+      "alt": "a view from a bridge — Versum"
+    },
+    "story": {
+      "eyebrow": "From the Versum series, 2022",
+      "paragraphs": [
+        "Part of the Versum collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on versum.",
+      "link": "https://objkt.com/tokens/KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW/36",
+      "platform": "versum",
+      "contract": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "tokenId": "36"
+    }
+  },
+  "arise_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "arise",
+      "intro": "From the Versum series.",
+      "description": "",
+      "date": "2022",
+      "series": "versum",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "versum",
+      "label": "arise"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/58 - arise.jpg",
+      "alt": "arise — Versum"
+    },
+    "story": {
+      "eyebrow": "From the Versum series, 2022",
+      "paragraphs": [
+        "Part of the Versum collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on versum.",
+      "link": "https://objkt.com/tokens/KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW/37",
+      "platform": "versum",
+      "contract": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "tokenId": "37"
+    }
+  },
+  "sea_cadets_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "sea cadets",
+      "intro": "From the Versum series.",
+      "description": "",
+      "date": "2022",
+      "series": "versum",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "versum",
+      "label": "sea cadets"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/59 - sea cadets.jpg",
+      "alt": "sea cadets — Versum"
+    },
+    "story": {
+      "eyebrow": "From the Versum series, 2022",
+      "paragraphs": [
+        "Part of the Versum collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on versum.",
+      "link": "https://objkt.com/tokens/KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW/1847",
+      "platform": "versum",
+      "contract": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "tokenId": "1847"
+    }
+  },
+  "an_abstraction_of_meaning": {
+    "layout": "photograph",
+    "meta": {
+      "title": "an abstraction of meaning",
+      "intro": "From the Versum series.",
+      "description": "",
+      "date": "2022",
+      "series": "versum",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "versum",
+      "label": "an abstraction of meaning"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/60 - an abstraction of meaning.jpg",
+      "alt": "an abstraction of meaning — Versum"
+    },
+    "story": {
+      "eyebrow": "From the Versum series, 2022",
+      "paragraphs": [
+        "Part of the Versum collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on versum.",
+      "link": "https://objkt.com/tokens/KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW/2726",
+      "platform": "versum",
+      "contract": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "tokenId": "2726"
+    }
+  },
+  "the_skies_seem_burning": {
+    "layout": "photograph",
+    "meta": {
+      "title": "the skies seem to be burning",
+      "intro": "From the Versum series.",
+      "description": "",
+      "date": "2022",
+      "series": "versum",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "versum",
+      "label": "the skies seem to be burning"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/61 - The skies seem to be burning.jpg",
+      "alt": "the skies seem to be burning — Versum"
+    },
+    "story": {
+      "eyebrow": "From the Versum series, 2022",
+      "paragraphs": [
+        "Part of the Versum collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on versum.",
+      "link": "https://objkt.com/tokens/KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW/18537",
+      "platform": "versum",
+      "contract": "KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW",
+      "tokenId": "18537"
+    }
+  },
+  "lightworms-01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Lightworms",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Lightworms"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/62 - 1 - IMG_5137 - lightworms.jpg",
+      "alt": "Lightworms — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/0",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "0"
+    }
+  },
+  "lightworms-02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "White Lines",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "White Lines"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/63 - 2 - IMG_5115 - white lines.jpg",
+      "alt": "White Lines — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/1",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "1"
+    }
+  },
+  "lightworms-03": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Sinking",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Sinking"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/64 - 3 - IMG_5107 - sinking.jpg",
+      "alt": "Sinking — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/2",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "2"
+    }
+  },
+  "lightworms-04": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Shone by Streetlight",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Shone by Streetlight"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/65 - 4 - IMG_5181 - shone by streetlight.jpg",
+      "alt": "Shone by Streetlight — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/3",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "3"
+    }
+  },
+  "lightworms-05": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Signature",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Signature"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/66 - 5 - IMG_4766 - signature.jpg",
+      "alt": "Signature — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/4",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "4"
+    }
+  },
+  "lightworms-06": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Shock",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Shock"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/67 - 6 - IMG_5441 - shock.jpg",
+      "alt": "Shock — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/5",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "5"
+    }
+  },
+  "lightworms-07": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Signs of Stripes",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Signs of Stripes"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/68 - 7 - IMG_4983 - signs of strips.jpg",
+      "alt": "Signs of Stripes — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/6",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "6"
+    }
+  },
+  "lightworms-08": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Daylight Screams",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Daylight Screams"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/69 - 8 - IMG_4999 - daylight screams.jpg",
+      "alt": "Daylight Screams — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/7",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "7"
+    }
+  },
+  "lightworms-09": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Rainbow Shimmer",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Rainbow Shimmer"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/70 - 9 - IMG_5048 - rainbow shimmer.jpg",
+      "alt": "Rainbow Shimmer — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/8",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "8"
+    }
+  },
+  "lightworms-10": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Sprung Springs",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Sprung Springs"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/71 - 10 - IMG_4982 - sprung springs .jpg",
+      "alt": "Sprung Springs — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/9",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "9"
+    }
+  },
+  "lightworms-11": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Fires Burn",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Fires Burn"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/72 - 11 - IMG_4784 - fires burn.jpg",
+      "alt": "Fires Burn — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/10",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "10"
+    }
+  },
+  "lightworms-12": {
+    "layout": "photograph",
+    "meta": {
+      "title": "From Focus",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "From Focus"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/73 - 12 - IMG_4967 - from focus.jpg",
+      "alt": "From Focus — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/11",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "11"
+    }
+  },
+  "lightworms-13": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Flying Objects",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Flying Objects"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/74 - 13 - IMG_4989 - flying objects.jpg",
+      "alt": "Flying Objects — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/12",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "12"
+    }
+  },
+  "lightworms-14": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Happening underneath",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Happening underneath"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/75 - 14 - IMG_5120 - happening underneath.jpg",
+      "alt": "Happening underneath — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/13",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "13"
+    }
+  },
+  "lightworms-15": {
+    "layout": "photograph",
+    "meta": {
+      "title": "the dancing man",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "the dancing man"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/76 - 15 - IMG_5384 - the dancing man.jpg",
+      "alt": "the dancing man — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/14",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "14"
+    }
+  },
+  "lightworms-16": {
+    "layout": "photograph",
+    "meta": {
+      "title": "light stained windows",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "light stained windows"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/77 - 16 - IMG_5298 - light stained windows.jpg",
+      "alt": "light stained windows — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/15",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "15"
+    }
+  },
+  "lightworms-17": {
+    "layout": "photograph",
+    "meta": {
+      "title": "a falling giant",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "a falling giant"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/78 - 17 - IMG_5347 - a falling giant.jpg",
+      "alt": "a falling giant — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/16",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "16"
+    }
+  },
+  "lightworms-18": {
+    "layout": "photograph",
+    "meta": {
+      "title": "rushing",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "rushing"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/79 - 18 - IMG_5267 - rushing.jpg",
+      "alt": "rushing — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/17",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "17"
+    }
+  },
+  "lightworms-19": {
+    "layout": "photograph",
+    "meta": {
+      "title": "getting to the station",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "getting to the station"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/80 - 19 - IMG_5248 - getting to the station.jpg",
+      "alt": "getting to the station — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/18",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "18"
+    }
+  },
+  "lightworms-20": {
+    "layout": "photograph",
+    "meta": {
+      "title": "green man",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "green man"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/81 - 20 - IMG_5225 - green man.jpg",
+      "alt": "green man — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/19",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "19"
+    }
+  },
+  "lightworms-21": {
+    "layout": "photograph",
+    "meta": {
+      "title": "red man",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "red man"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/82 - 21 - IMG_5223 - red man.jpg",
+      "alt": "red man — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/20",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "20"
+    }
+  },
+  "lightworms-22": {
+    "layout": "photograph",
+    "meta": {
+      "title": "into the sky",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "into the sky"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/83 - 22 - IMG_4301 - into the sky.jpg",
+      "alt": "into the sky — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/21",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "21"
+    }
+  },
+  "lightworms-23": {
+    "layout": "photograph",
+    "meta": {
+      "title": "under an escape",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "under an escape"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/84 - 23 - IMG_4490 - under an escape.jpg",
+      "alt": "under an escape — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/22",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "22"
+    }
+  },
+  "lightworms-24": {
+    "layout": "photograph",
+    "meta": {
+      "title": "undershadowed",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "undershadowed"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/85 - 24 - IMG_5108 - undershadowed.jpg",
+      "alt": "undershadowed — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/23",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "23"
+    }
+  },
+  "lightworms-25": {
+    "layout": "photograph",
+    "meta": {
+      "title": "light speed",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "light speed"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/86 - 25 - IMG_5297 - light speed.jpg",
+      "alt": "light speed — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/24",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "24"
+    }
+  },
+  "lightworms-26": {
+    "layout": "photograph",
+    "meta": {
+      "title": "overwhelmed",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "overwhelmed"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/87 - 26 - IMG_5894 - overwhelmed.jpg",
+      "alt": "overwhelmed — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/25",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "25"
+    }
+  },
+  "lightworms-27": {
+    "layout": "photograph",
+    "meta": {
+      "title": "fairies",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "fairies"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/88 - 27 - IMG_5643 - fairies.jpg",
+      "alt": "fairies — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/26",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "26"
+    }
+  },
+  "lightworms-28": {
+    "layout": "photograph",
+    "meta": {
+      "title": "bar",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "bar"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/89 - 28 - IMG_5647 - fish bar.jpg",
+      "alt": "bar — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/27",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "27"
+    }
+  },
+  "lightworms-29": {
+    "layout": "photograph",
+    "meta": {
+      "title": "phantom",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "phantom"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/90 - 29 - IMG_5642 - phantom.jpg",
+      "alt": "phantom — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/28",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "28"
+    }
+  },
+  "lightworms-30": {
+    "layout": "photograph",
+    "meta": {
+      "title": "the agency",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "the agency"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/91 - 30 - IMG_5615 - the agency.jpg",
+      "alt": "the agency — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/29",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "29"
+    }
+  },
+  "lightworms-31": {
+    "layout": "photograph",
+    "meta": {
+      "title": "not in service",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "not in service"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/92 - 31 - IMG_5504 - not in service.jpg",
+      "alt": "not in service — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/30",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "30"
+    }
+  },
+  "lightworms-32": {
+    "layout": "photograph",
+    "meta": {
+      "title": "out of the dark",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "out of the dark"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/93 - 32 - IMG_5109 - out of the dark.jpg",
+      "alt": "out of the dark — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/31",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "31"
+    }
+  },
+  "lightworms-33": {
+    "layout": "photograph",
+    "meta": {
+      "title": "splayed diffraction",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "splayed diffraction"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/94 - 33 - IMG_5049 - splayed diffraction.jpg",
+      "alt": "splayed diffraction — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/32",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "32"
+    }
+  },
+  "lightworms-34": {
+    "layout": "photograph",
+    "meta": {
+      "title": "shudder",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "shudder"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/95 - 34 - IMG_5650 - shudder.jpg",
+      "alt": "shudder — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/33",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "33"
+    }
+  },
+  "lightworms-35": {
+    "layout": "photograph",
+    "meta": {
+      "title": "flickering blade",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "flickering blade"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/96 - 35 - IMG_5954 - flickering blade.jpg",
+      "alt": "flickering blade — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/34",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "34"
+    }
+  },
+  "lightworms-36": {
+    "layout": "photograph",
+    "meta": {
+      "title": "flying time",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "flying time"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/97 - 36 - IMG_4996 - flying time.jpg",
+      "alt": "flying time — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/35",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "35"
+    }
+  },
+  "lightworms-37": {
+    "layout": "photograph",
+    "meta": {
+      "title": "breeze",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "breeze"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/98 - 37 - IMG_4984 - breeze.jpg",
+      "alt": "breeze — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/36",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "36"
+    }
+  },
+  "lightworms-38": {
+    "layout": "photograph",
+    "meta": {
+      "title": "square lines",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "square lines"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/99 - 38 - IMG_4570 - square lines.jpg",
+      "alt": "square lines — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/37",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "37"
+    }
+  },
+  "lightworms-39": {
+    "layout": "photograph",
+    "meta": {
+      "title": "the no. 75",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "the no. 75"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/100 - 39 - IMG_5446 - the no. 75.jpg",
+      "alt": "the no. 75 — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/38",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "38"
+    }
+  },
+  "lightworms-40": {
+    "layout": "photograph",
+    "meta": {
+      "title": "shadowed",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "shadowed"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/101 - 40 - IMG_5649 - shadowed.jpg",
+      "alt": "shadowed — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/39",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "39"
+    }
+  },
+  "lightworms-41": {
+    "layout": "photograph",
+    "meta": {
+      "title": "the bus lane",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "the bus lane"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/102 - 41 - IMG_5748 - the bus lane.jpg",
+      "alt": "the bus lane — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/40",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "40"
+    }
+  },
+  "lightworms-42": {
+    "layout": "photograph",
+    "meta": {
+      "title": "mellow yellows",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "mellow yellows"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/103 - 42 - IMG_5663 - mellow yellows.jpg",
+      "alt": "mellow yellows — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/41",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "41"
+    }
+  },
+  "lightworms-43": {
+    "layout": "photograph",
+    "meta": {
+      "title": "aligned",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "aligned"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/104 - 43 - IMG_5896 - aligned.jpg",
+      "alt": "aligned — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/42",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "42"
+    }
+  },
+  "lightworms-44": {
+    "layout": "photograph",
+    "meta": {
+      "title": "waves",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "waves"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/105 - 44 - IMG_4777 - waves.jpg",
+      "alt": "waves — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/43",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "43"
+    }
+  },
+  "lightworms-45": {
+    "layout": "photograph",
+    "meta": {
+      "title": "warp speed",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "warp speed"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/106 - 45 - IMG_5685 - warp speed.jpg",
+      "alt": "warp speed — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/44",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "44"
+    }
+  },
+  "lightworms-46": {
+    "layout": "photograph",
+    "meta": {
+      "title": "drifting",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "drifting"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/107 - 46 - IMG_5611 - drifting.jpg",
+      "alt": "drifting — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/45",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "45"
+    }
+  },
+  "lightworms-47": {
+    "layout": "photograph",
+    "meta": {
+      "title": "misted lightdrops",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "misted lightdrops"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/108 - 47 - IMG_5131 - misted lightdrops.jpg",
+      "alt": "misted lightdrops — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/46",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "46"
+    }
+  },
+  "lightworms-48": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Gloucester Road [a perspective]",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "Gloucester Road [a perspective]"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/109 - 48 - IMG_4993 - Gloucester Road [a perspective].jpg",
+      "alt": "Gloucester Road [a perspective] — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/47",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "47"
+    }
+  },
+  "lightworms-49": {
+    "layout": "photograph",
+    "meta": {
+      "title": "scrawled",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "scrawled"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/110 - 49 - IMG_5651 - scrawled.jpg",
+      "alt": "scrawled — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/48",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "48"
+    }
+  },
+  "lightworms-50": {
+    "layout": "photograph",
+    "meta": {
+      "title": "from above",
+      "intro": "From the Lightworms series.",
+      "description": "",
+      "date": "2022",
+      "series": "lightworms",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "lightworms",
+      "label": "from above"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/111 - 50 - IMG_5652 - from above.jpg",
+      "alt": "from above — Lightworms"
+    },
+    "story": {
+      "eyebrow": "From the Lightworms series, 2022",
+      "paragraphs": [
+        "Part of the Lightworms collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv/49",
+      "platform": "objkt",
+      "contract": "KT1V8HRCRQm8p1ww2b7PbVkNXQHrWK97wvEv",
+      "tokenId": "49"
+    }
+  },
+  "sometimes": {
+    "layout": "photograph",
+    "meta": {
+      "title": "sometimes",
+      "intro": "From the Photez Thematic v1 — Orange series.",
+      "description": "",
+      "date": "",
+      "series": "Photez Thematic v1 - Orange",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v1 - Orange",
+      "label": "sometimes"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/112 - Sometimes.jpg",
+      "alt": "sometimes — Photez Thematic v1 — Orange"
+    },
+    "story": {
+      "eyebrow": "From the Photez Thematic v1 — Orange series,",
+      "paragraphs": [
+        "Part of the Photez Thematic v1 — Orange collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RV7k4BsX58bhpL1UyNPNZsjqj32uAEqpc/13",
+      "platform": "objkt",
+      "contract": "KT1RV7k4BsX58bhpL1UyNPNZsjqj32uAEqpc",
+      "tokenId": "13"
+    }
+  },
+  "a_view_above": {
+    "layout": "photograph",
+    "meta": {
+      "title": "a view above",
+      "intro": "From the Photez Thematic v2 — Have a Seat series.",
+      "description": "",
+      "date": "",
+      "series": "Photez Thematic v2 - Have a Seat",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v2 - Have a Seat",
+      "label": "a view above"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/113 - A View Above.jpg",
+      "alt": "a view above — Photez Thematic v2 — Have a Seat"
+    },
+    "story": {
+      "eyebrow": "From the Photez Thematic v2 — Have a Seat series,",
+      "paragraphs": [
+        "Part of the Photez Thematic v2 — Have a Seat collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RkaccTWZYTac2dwUjtePjEH9BRA4HNKqm/13",
+      "platform": "objkt",
+      "contract": "KT1RkaccTWZYTac2dwUjtePjEH9BRA4HNKqm",
+      "tokenId": "13"
+    }
+  },
+  "upon_reflection": {
+    "layout": "photograph",
+    "meta": {
+      "title": "upon reflection",
+      "intro": "From the Photez Thematic v3 — Reflections series.",
+      "description": "",
+      "date": "",
+      "series": "Photez Thematic v3 - Reflections",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v3 - Reflections",
+      "label": "upon reflection"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/114 - upon reflection.jpg",
+      "alt": "upon reflection — Photez Thematic v3 — Reflections"
+    },
+    "story": {
+      "eyebrow": "From the Photez Thematic v3 — Reflections series,",
+      "paragraphs": [
+        "Part of the Photez Thematic v3 — Reflections collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1LW1PdQ7EEHYnzudF3JVsLVb4ETeVf4EFr/12",
+      "platform": "objkt",
+      "contract": "KT1LW1PdQ7EEHYnzudF3JVsLVb4ETeVf4EFr",
+      "tokenId": "12"
+    }
+  },
+  "bristol_7": {
+    "layout": "photograph",
+    "meta": {
+      "title": "bristol.7.",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "bristol.7."
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/115 - Bristol.7..jpg",
+      "alt": "bristol.7. — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/747878",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "747878"
+    }
+  },
+  "murmuration": {
+    "layout": "photograph",
+    "meta": {
+      "title": "murmuration",
+      "intro": "From the Photez for #1of1 series.",
+      "description": "",
+      "date": "",
+      "series": "Photez for #1of1",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez for #1of1",
+      "label": "murmuration"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/117 - Murmuration.jpg",
+      "alt": "murmuration — Photez for #1of1"
+    },
+    "story": {
+      "eyebrow": "From the Photez for #1of1 series,",
+      "paragraphs": [
+        "Part of the Photez for #1of1 collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1VTaKud8PnviihT7xzwn7FvrXdV3GCEWYF/126",
+      "platform": "objkt",
+      "contract": "KT1VTaKud8PnviihT7xzwn7FvrXdV3GCEWYF",
+      "tokenId": "126"
+    }
+  },
+  "drifting_blurred_perspectives": {
+    "layout": "photograph",
+    "meta": {
+      "title": "drifitng in blurred perspectives",
+      "intro": "From the Photez for #1of1 series.",
+      "description": "",
+      "date": "",
+      "series": "Photez for #1of1",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez for #1of1",
+      "label": "drifitng in blurred perspectives"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/116 - Drifting in Blurred Perspectives.jpg",
+      "alt": "drifitng in blurred perspectives — Photez for #1of1"
+    },
+    "story": {
+      "eyebrow": "From the Photez for #1of1 series,",
+      "paragraphs": [
+        "Part of the Photez for #1of1 collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1VTaKud8PnviihT7xzwn7FvrXdV3GCEWYF/239",
+      "platform": "objkt",
+      "contract": "KT1VTaKud8PnviihT7xzwn7FvrXdV3GCEWYF",
+      "tokenId": "239"
+    }
+  },
+  "awakenings": {
+    "layout": "photograph",
+    "meta": {
+      "title": "awakenings",
+      "intro": "From the Photez Thematic v4 — Tezos4Nature series.",
+      "description": "",
+      "date": "",
+      "series": "Photez Thematic v4 - Tezos4Nature",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v4 - Tezos4Nature",
+      "label": "awakenings"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/118 - Awakenings.jpg",
+      "alt": "awakenings — Photez Thematic v4 — Tezos4Nature"
+    },
+    "story": {
+      "eyebrow": "From the Photez Thematic v4 — Tezos4Nature series,",
+      "paragraphs": [
+        "Part of the Photez Thematic v4 — Tezos4Nature collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1RLPLnWGKCeXfE5w6Y6aTEPyFSY65k1hHr/16",
+      "platform": "objkt",
+      "contract": "KT1RLPLnWGKCeXfE5w6Y6aTEPyFSY65k1hHr",
+      "tokenId": "16"
+    }
+  },
+  "always": {
+    "layout": "photograph",
+    "meta": {
+      "title": "always,",
+      "intro": "From the Photez Thematic v5 — Gestalt series.",
+      "description": "",
+      "date": "",
+      "series": "Photez Thematic v5 - Gestalt",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v5 - Gestalt",
+      "label": "always,"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/119 - always,.jpg",
+      "alt": "always, — Photez Thematic v5 — Gestalt"
+    },
+    "story": {
+      "eyebrow": "From the Photez Thematic v5 — Gestalt series,",
+      "paragraphs": [
+        "Part of the Photez Thematic v5 — Gestalt collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1SA71w1qCmyDDhAGNE5waWnebTNPugjWWH/18",
+      "platform": "objkt",
+      "contract": "KT1SA71w1qCmyDDhAGNE5waWnebTNPugjWWH",
+      "tokenId": "18"
+    }
+  },
+  "originated_misunderstandings": {
+    "layout": "photograph",
+    "meta": {
+      "title": "originated misunderstandings",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "originated misunderstandings"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/120 - originated misunderstandings.jpg",
+      "alt": "originated misunderstandings — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/815803",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "815803"
+    }
+  },
+  "a_goldrush": {
+    "layout": "photograph",
+    "meta": {
+      "title": "as if, a goldrush",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "as if, a goldrush"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/121 - as if, a goldrush.jpg",
+      "alt": "as if, a goldrush — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/819158",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "819158"
+    }
+  },
+  "on_photography": {
+    "layout": "photograph",
+    "meta": {
+      "title": "on photography",
+      "intro": "From the fx(text) series.",
+      "description": "",
+      "date": "2022",
+      "series": "fxtext",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "fxtext",
+      "label": "on photography"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/122 - on Photography.jpg",
+      "alt": "on photography — fx(text)"
+    },
+    "story": {
+      "eyebrow": "From the fx(text) series, 2022",
+      "paragraphs": [
+        "Part of the fx(text) collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1GtbuswcNMGhHF2TSuH1Yfaqn16do8Qtva/1207",
+      "platform": "objkt",
+      "contract": "KT1GtbuswcNMGhHF2TSuH1Yfaqn16do8Qtva",
+      "tokenId": "1207"
+    }
+  },
+  "iselworth_ait": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Towards Iselworth Ait, River Thames",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Towards Iselworth Ait, River Thames"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/123 - Towards Iselworth Ait, River Thames.jpg",
+      "alt": "Towards Iselworth Ait, River Thames — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/824534",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "824534"
+    }
+  },
+  "cycling_in_london": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Cycling in London, Clowes House",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Cycling in London, Clowes House"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/124 - Cycling in London, Clowes House.jpg",
+      "alt": "Cycling in London, Clowes House — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/824649",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "824649"
+    }
+  },
+  "Swimming_with_Cygnets": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Swimming with Cygnets",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Swimming with Cygnets"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/125 - Swimming with Cygnets.jpg",
+      "alt": "Swimming with Cygnets — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/825932",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "825932"
+    }
+  },
+  "Out_with_the_cygnets": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Out with the cygnets",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Out with the cygnets"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/126 - Out with the cygnets.jpg",
+      "alt": "Out with the cygnets — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/828740",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "828740"
+    }
+  },
+  "cygnets_playing": {
+    "layout": "photograph",
+    "meta": {
+      "title": "cygnets playing",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "cygnets playing"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/127 - cygnets playing.jpg",
+      "alt": "cygnets playing — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/828743",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "828743"
+    }
+  },
+  "among_golden_hills": {
+    "layout": "photograph",
+    "meta": {
+      "title": "among golden hills",
+      "intro": "From the Photographs series.",
+      "description": "",
+      "date": "",
+      "series": "Photographs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photographs",
+      "label": "among golden hills"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/128 - among golden hillsides.jpg",
+      "alt": "among golden hills — Photographs"
+    },
+    "story": {
+      "eyebrow": "From the Photographs series,",
+      "paragraphs": [
+        "Part of the Photographs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1LJJWhY6y9tTdDLGMy5yYSKvqeDPsuWu1j/1",
+      "platform": "objkt",
+      "contract": "KT1LJJWhY6y9tTdDLGMy5yYSKvqeDPsuWu1j",
+      "tokenId": "1"
+    }
+  },
+  "sillhouettes_from_ a_dappled_sky": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Sillhouettes from a dappled sky",
+      "intro": "From the Photographs series.",
+      "description": "",
+      "date": "",
+      "series": "Photographs",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photographs",
+      "label": "Sillhouettes from a dappled sky"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/129 - Sillhouettes from a dappled sky.jpg",
+      "alt": "Sillhouettes from a dappled sky — Photographs"
+    },
+    "story": {
+      "eyebrow": "From the Photographs series,",
+      "paragraphs": [
+        "Part of the Photographs collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1LJJWhY6y9tTdDLGMy5yYSKvqeDPsuWu1j/2",
+      "platform": "objkt",
+      "contract": "KT1LJJWhY6y9tTdDLGMy5yYSKvqeDPsuWu1j",
+      "tokenId": "2"
+    }
+  },
+  "urban_mountains": {
+    "layout": "photograph",
+    "meta": {
+      "title": "urban mountains",
+      "intro": "From the Photez Thematic v7 — Shadows series.",
+      "description": "",
+      "date": "",
+      "series": "Photez Thematic v7 - Shadows",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v7 - Shadows",
+      "label": "urban mountains"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/130 - urban mountains.jpg",
+      "alt": "urban mountains — Photez Thematic v7 — Shadows"
+    },
+    "story": {
+      "eyebrow": "From the Photez Thematic v7 — Shadows series,",
+      "paragraphs": [
+        "Part of the Photez Thematic v7 — Shadows collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1WdA5fvRUzefuGYHpRENTi93v3AbM4JKe2/10",
+      "platform": "objkt",
+      "contract": "KT1WdA5fvRUzefuGYHpRENTi93v3AbM4JKe2",
+      "tokenId": "10"
+    }
+  },
+  "the_weight_of_it_all": {
+    "layout": "photograph",
+    "meta": {
+      "title": "The weight of it all",
+      "intro": "From the Photez Thematic v8 — The Upside Down series.",
+      "description": "",
+      "date": "",
+      "series": "Photez Thematic v8 - The Upside Down",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "Photez Thematic v8 - The Upside Down",
+      "label": "The weight of it all"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/131 - The weight of it all.jpg",
+      "alt": "The weight of it all — Photez Thematic v8 — The Upside Down"
+    },
+    "story": {
+      "eyebrow": "From the Photez Thematic v8 — The Upside Down series,",
+      "paragraphs": [
+        "Part of the Photez Thematic v8 — The Upside Down collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on objkt.",
+      "link": "https://objkt.com/tokens/KT1H8TMioHYFWzfrk9nL3qmjRL1GXbAoMm2Q/10",
+      "platform": "objkt",
+      "contract": "KT1H8TMioHYFWzfrk9nL3qmjRL1GXbAoMm2Q",
+      "tokenId": "10"
+    }
+  },
+  "Under_the_underground_01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Under the underground",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Under the underground"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/132 - Under the underground.jpg",
+      "alt": "Under the underground — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/850955",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "850955"
+    }
+  },
+  "Under_the_underground_02": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Under the underground",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Under the underground"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/133 - Under the underground.jpg",
+      "alt": "Under the underground — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/580956",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "580956"
+    }
+  },
+  "galleries_car_park": {
+    "layout": "photograph",
+    "meta": {
+      "title": "The Galleries car park, Bristol. with Ryan",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "The Galleries car park, Bristol. with Ryan"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/134 - 934_8279 - The Galleries car park, Bristol. with Ryan.jpg",
+      "alt": "The Galleries car park, Bristol. with Ryan — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/867913",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "867913"
+    }
+  },
+  "trapped_within_descending_haze": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Trapped within a descending haze",
+      "intro": "From the Hic Et Nunc mints series.",
+      "description": "",
+      "date": "2021",
+      "series": "hicetnunc",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "hicetnunc",
+      "label": "Trapped within a descending haze"
+    },
+    "hero": {
+      "image": "/work/photography/token_mints/135 - Trapped within a descending haze.jpg",
+      "alt": "Trapped within a descending haze — Hic Et Nunc mints"
+    },
+    "story": {
+      "eyebrow": "From the Hic Et Nunc mints series, 2021",
+      "paragraphs": [
+        "Part of the Hic Et Nunc mints collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": true,
+      "summary": "Minted on hicetnunc.",
+      "link": "https://objkt.com/tokens/KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton/868454",
+      "platform": "hicetnunc",
+      "contract": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+      "tokenId": "868454"
+    }
+  },
+  "30-mile-sign": {
+    "layout": "photograph",
+    "meta": {
+      "title": "30 Miles",
+      "intro": "From the Street photography series.",
+      "description": "",
+      "date": "2018",
+      "series": "street-photography",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "street-photography",
+      "label": "30 Miles"
+    },
+    "hero": {
+      "image": "/work/photography/30-sign.jpg",
+      "alt": "30 Miles — Street photography"
+    },
+    "story": {
+      "eyebrow": "From the Street photography series, 2018",
+      "paragraphs": [
+        "Part of the Street photography collection."
+      ]
+    },
+    "printTiers": [
+      {
+        "id": "open",
+        "label": "Open print",
+        "summary": "Archival open edition — standard sizes on request.",
+        "href": "/work/photography/products/limited-prints",
+        "cta": "Request open print",
+        "kind": "shop"
+      },
+      {
+        "id": "limited",
+        "label": "Limited signed",
+        "summary": "Signed limited edition — numbered when the run is fixed.",
+        "href": "/work/photography/products/limited-prints",
+        "cta": "Limited edition",
+        "kind": "shop"
+      }
+    ],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "brighton-by-bench-01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Brighton by Bench I",
+      "intro": "From the Brighton by Bench series.",
+      "description": "",
+      "date": "2022",
+      "series": "brighton-by-bench",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "brighton-by-bench",
+      "label": "Brighton by Bench I"
+    },
+    "hero": {
+      "image": "/work/photography/brighton-by-bench-01.jpg",
+      "alt": "Brighton by Bench I — Brighton by Bench"
+    },
+    "story": {
+      "eyebrow": "From the Brighton by Bench series, 2022",
+      "paragraphs": [
+        "Part of the Brighton by Bench collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "brugge-windows": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Brugge Windows",
+      "intro": "From the Archive series.",
+      "description": "",
+      "date": "",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Brugge Windows"
+    },
+    "hero": {
+      "image": "/work/photography/brugge-windows.jpg",
+      "alt": "Brugge Windows — Archive"
+    },
+    "story": {
+      "eyebrow": "From the Archive series,",
+      "paragraphs": [
+        "Part of the Archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "croatia-2017": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Croatia 2017",
+      "intro": "From the Archive series.",
+      "description": "",
+      "date": "2017",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Croatia 2017"
+    },
+    "hero": {
+      "image": "/work/photography/croatia-2017.jpg",
+      "alt": "Croatia 2017 — Archive"
+    },
+    "story": {
+      "eyebrow": "From the Archive series, 2017",
+      "paragraphs": [
+        "Part of the Archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "flowers-bristol": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Flowers Bristol",
+      "intro": "From the Archive series.",
+      "description": "",
+      "date": "",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Flowers Bristol"
+    },
+    "hero": {
+      "image": "/work/photography/flowers-bristol.jpg",
+      "alt": "Flowers Bristol — Archive"
+    },
+    "story": {
+      "eyebrow": "From the Archive series,",
+      "paragraphs": [
+        "Part of the Archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "hanging-figures": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Hanging Figures",
+      "intro": "From the Archive series.",
+      "description": "",
+      "date": "",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Hanging Figures"
+    },
+    "hero": {
+      "image": "/work/photography/hanging-figures.jpg",
+      "alt": "Hanging Figures — Archive"
+    },
+    "story": {
+      "eyebrow": "From the Archive series,",
+      "paragraphs": [
+        "Part of the Archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "india-2016-feature-01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "India 2016 Feature",
+      "intro": "From the India 2016 archive series.",
+      "description": "",
+      "date": "2016",
+      "series": "india-2016",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "india-2016",
+      "label": "India 2016 Feature"
+    },
+    "hero": {
+      "image": "/work/photography/india-2016-feature-01.jpg",
+      "alt": "India 2016 Feature — India 2016 archive"
+    },
+    "story": {
+      "eyebrow": "From the India 2016 archive series, 2016",
+      "paragraphs": [
+        "Part of the India 2016 archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "scotland-2016": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Scotland 2016",
+      "intro": "From the Archive series.",
+      "description": "",
+      "date": "2016",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Scotland 2016"
+    },
+    "hero": {
+      "image": "/work/photography/scotland-2016.jpg",
+      "alt": "Scotland 2016 — Archive"
+    },
+    "story": {
+      "eyebrow": "From the Archive series, 2016",
+      "paragraphs": [
+        "Part of the Archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "street-art-01": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Street Art",
+      "intro": "From the Archive series.",
+      "description": "",
+      "date": "",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Street Art"
+    },
+    "hero": {
+      "image": "/work/photography/street-art-01.jpg",
+      "alt": "Street Art — Archive"
+    },
+    "story": {
+      "eyebrow": "From the Archive series,",
+      "paragraphs": [
+        "Part of the Archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  },
+  "refclected-drips-reverse": {
+    "layout": "photograph",
+    "meta": {
+      "title": "Reflected Drips Reverse",
+      "intro": "From the Archive series.",
+      "description": "",
+      "date": "",
+      "series": "archive",
+      "tags": []
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "series": "archive",
+      "label": "Reflected Drips Reverse"
+    },
+    "hero": {
+      "image": "/work/photography/refclected-drips-reverse.jpg",
+      "alt": "Reflected Drips Reverse — Archive"
+    },
+    "story": {
+      "eyebrow": "From the Archive series,",
+      "paragraphs": [
+        "Part of the Archive collection."
+      ]
+    },
+    "printTiers": [],
+    "nft": {
+      "published": false,
+      "summary": null,
+      "link": null,
+      "platform": null,
+      "contract": null,
+      "tokenId": null
+    }
+  }
+}

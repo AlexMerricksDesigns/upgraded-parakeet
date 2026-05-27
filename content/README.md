@@ -8,6 +8,8 @@ One file per published page body. **No shared copy** between pages — duplicate
 content/
   work/
     projects/<slug>.js      → /work/<cat>/projects/<slug>
+    series/<slug>.js        → /work/photography/series/<slug>
+    captured/<slug>.js      → /work/photography/captured/<slug>
     products/<slug>.js      → /work/<cat>/products/<slug>
     categories/<id>.js      → /work/<id> hub
     categories/plotter/timeline.js
@@ -15,13 +17,32 @@ content/
     posts/<slug>.js         → /work/<cat>/journal/<slug>
 ```
 
-Card/chronicle metadata stays in `app/work/manifest.json`, `app/journal/manifest.json`, `app/shop/manifest.json`.
+**Bulk photography & products:** edit `data/*.csv`, run `npm run content:sync`. Generated card metadata: `app/work/photography-manifest.json`, `app/shop/manifest.json`. Generated bodies: `content/catalog/*.json`.
+
+**Projects / journal bodies** still use `content/work/projects/`, `content/journal/posts/` (journal cards also in `data/journal.csv`).
+
+Legacy `app/work/manifest.json` remains hand-maintained for craft projects until migrated.
+
+### Optional print fields (work manifest)
+
+```json
+{
+  "printAvailable": true,
+  "print": {
+    "sizes": ["A4", "A3"],
+    "priceRange": "from £45",
+    "productSlug": "limited-prints"
+  }
+}
+```
+
+Helpers: `lib/print-metadata.js` — hub badges, featured prints rail.
 
 ## Page document shape
 
 ```js
 export const page = {
-  layout: "prose" | "projectRich" | "productShelf" | "categoryConfig" | "custom",
+  layout: "prose" | "projectRich" | "series" | "photograph" | "productShelf" | "categoryConfig" | "custom",
   customId: "plotter-hub", // only when layout === "custom"
   meta: {
     title: "Page title",
@@ -55,6 +76,8 @@ export const page = {
 |--------|-----------|
 | `prose` | `ProseProjectLayout` |
 | `projectRich` | `ProjectRichLayout` |
+| `series` | `SeriesLayout` |
+| `photograph` | `PhotographLayout` |
 | `productShelf` | `ProductShelfLayout` |
 | `categoryConfig` | `CategoryConfigLayout` |
 | `custom` | `components/work/pages/<customId>.jsx` |

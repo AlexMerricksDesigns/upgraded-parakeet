@@ -10,8 +10,13 @@
     "lint": "eslint .",
     "republish:setup": "node scripts/republish-setup.mjs",
     "ingest:cleanup": "node scripts/cleanup-ingest.mjs",
+    "content:sync": "node scripts/content-sync.mjs",
+    "content:validate": "node scripts/content-validate.mjs",
+    "catalog:import-csv": "node scripts/catalog-import-csv.mjs",
+    "assets:ingest": "node scripts/assets-ingest.mjs",
     "assets:optimize": "node scripts/optimize-assets.mjs",
     "assets:optimize:all": "node scripts/optimize-assets.mjs --scope=all",
+    "prebuild": "node scripts/content-sync.mjs",
     "probe:objkt": "node scripts/chain/probe-objkt.mjs",
     "probe:fxhash": "node scripts/chain/probe-fxhash.mjs",
     "probe:base": "node scripts/chain/probe-base.mjs"

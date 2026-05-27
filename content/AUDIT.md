@@ -1,27 +1,31 @@
 # Content audit — manifest slug → content file
 
-Generated after content/layout separation. **Gaps** need a new `content/...` module before deleting legacy files.
+**Catalog source:** `data/*.csv` → `npm run content:sync` → `content/catalog/*.json` + `app/work/photography-manifest.json`. See [`data/README.md`](../data/README.md).
+
+Legacy category hubs under `content/work/categories/` were removed (routes use component hubs).
 
 ## Work projects (`app/work/manifest.json`)
 
 | Slug | Category | Content file | Layout |
 |------|----------|--------------|--------|
 | plotted-heads | plotter | [content/work/projects/plotted-heads.js](work/projects/plotted-heads.js) | projectRich |
-| meat-hammer | metalworking | [content/work/projects/meat-hammer.js](work/projects/meat-hammer.js) | prose |
-| needle-file-handle | woodworking | [content/work/projects/needle-file-handle.js](work/projects/needle-file-handle.js) | prose |
-| shelving-a-level | woodworking | [content/work/projects/shelving-a-level.js](work/projects/shelving-a-level.js) | prose |
-| design-philosophy | philosophy | [content/work/projects/design-philosophy.js](work/projects/design-philosophy.js) | prose |
-| knife-poster | woodworking | [content/work/projects/knife-poster.js](work/projects/knife-poster.js) | prose |
-| designing-dope | philosophy | [content/work/projects/designing-dope.js](work/projects/designing-dope.js) | prose |
-| liminal-design | philosophy | [content/work/projects/liminal-design.js](work/projects/liminal-design.js) | prose |
-| brighton-by-bench | photography | [content/work/projects/brighton-by-bench.js](work/projects/brighton-by-bench.js) | projectRich |
-| lightworms | photography | [content/work/projects/lightworms.js](work/projects/lightworms.js) | projectRich |
-| india-2016 | photography | [content/work/projects/india-2016.js](work/projects/india-2016.js) | projectRich |
+| meat-hammer | physical-objects | [content/work/projects/meat-hammer.js](work/projects/meat-hammer.js) | prose |
+| needle-file-handle | physical-objects | [content/work/projects/needle-file-handle.js](work/projects/needle-file-handle.js) | prose |
+| shelving-a-level | physical-objects | [content/work/projects/shelving-a-level.js](work/projects/shelving-a-level.js) | prose |
+| design-philosophy | reflections | [content/work/projects/design-philosophy.js](work/projects/design-philosophy.js) | prose |
+| knife-poster | physical-objects | [content/work/projects/knife-poster.js](work/projects/knife-poster.js) | prose |
+| designing-dope | reflections | [content/work/projects/designing-dope.js](work/projects/designing-dope.js) | prose |
+| liminal-design | reflections | [content/work/projects/liminal-design.js](work/projects/liminal-design.js) | prose |
+| brighton-by-bench | photography | [content/work/series/brighton-by-bench.js](work/series/brighton-by-bench.js) | series |
+| lightworms | photography | [content/work/series/lightworms.js](work/series/lightworms.js) | series |
+| india-2016 | photography | [content/work/series/india-2016.js](work/series/india-2016.js) | series |
+| lightworms-01 | photography | [content/catalog/photographs.json](catalog/photographs.json) + optional override/legacy JS | photograph |
+| lightworms-02 | photography | [content/catalog/photographs.json](catalog/photographs.json) + optional override/legacy JS | photograph |
 | drawing-studio | photography | [content/work/projects/drawing-studio.js](work/projects/drawing-studio.js) | prose |
 | painting-studio | photography | [content/work/projects/painting-studio.js](work/projects/painting-studio.js) | prose |
-| ai-image-upscaling | pc-networks | [content/work/projects/ai-image-upscaling.js](work/projects/ai-image-upscaling.js) | prose |
-| theories-thinking-design | philosophy | [content/work/projects/theories-thinking-design.js](work/projects/theories-thinking-design.js) | prose |
-| frame-animation-series | film | [content/work/projects/frame-animation-series.js](work/projects/frame-animation-series.js) | prose |
+| ai-image-upscaling | plotter | [content/work/projects/ai-image-upscaling.js](work/projects/ai-image-upscaling.js) | prose |
+| theories-thinking-design | reflections | [content/work/projects/theories-thinking-design.js](work/projects/theories-thinking-design.js) | prose |
+| frame-animation-series | physical-objects | [content/work/projects/frame-animation-series.js](work/projects/frame-animation-series.js) | prose |
 
 ## Shop products (`app/shop/manifest.json`)
 
@@ -47,8 +51,7 @@ All published slugs have `content/journal/posts/<slug>.js` (17 files). Related l
 | /work/pc-networks | [content/work/categories/pc-networks.js](work/categories/pc-networks.js) | categoryConfig |
 | /work/plotter | [components/work/pages/plotter-hub.jsx](../components/work/pages/plotter-hub.jsx) | custom (COPY still in component; migrate to content later) |
 | /work/plotter/timeline | [components/work/pages/plotter-timeline.jsx](../components/work/pages/plotter-timeline.jsx) | custom |
-| /work/photography | [components/work/pages/photography-hub.jsx](../components/work/pages/photography-hub.jsx) | custom |
-| /work/crypto | [components/work/pages/crypto-hub.jsx](../components/work/pages/crypto-hub.jsx) | custom |
+| /work/photography | [components/work/hub/photography/](../components/work/hub/photography/) | custom |
 
 ## Not on site (safe to ignore unless you add pages)
 

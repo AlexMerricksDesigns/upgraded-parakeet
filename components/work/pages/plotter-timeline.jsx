@@ -618,7 +618,7 @@ export function PlotterTimelinePage() {
                   </p>
                 )}
 
-                <div className="prose crypto-article__prose plotter-dev-timeline__prose">
+                <div className="prose work-hub-article__prose plotter-dev-timeline__prose">
                   {entry.paragraphs.map((para) => (
                     <p key={para.slice(0, 40)}>{para}</p>
                   ))}
@@ -646,7 +646,7 @@ export function PlotterTimelinePage() {
           })}
         </ol>
 
-        <section className="card crypto-cta-strip">
+        <section className="card work-hub-cta-strip">
           <h2 className="card-link__title">Continue</h2>
           <p className="card-link__summary">
             Return to the plotter thread, the plotted heads project, or the Explorer.

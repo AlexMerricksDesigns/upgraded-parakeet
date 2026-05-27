@@ -8,7 +8,7 @@ Navigation: **Home → `/work` Explorer → `/work/<category>` → `projects` | 
 
 | ID | Hub | Subsections |
 |----|-----|-------------|
-| `photography` | `/work/photography` | Captured Works · Published (NFTs) · Field Notes |
+| `photography` | `/work/photography` | Captured · Published (NFTs) · Field Notes · Available Prints (`#prints`) |
 | `plotter` | `/work/plotter` | Experiments · Finished Pieces · Process / Studio |
 | `physical-objects` | `/work/physical-objects` | Living Systems · Prototypes · Installations |
 | `reflections` | `/work/reflections` | Essays · Dissertations & Studio · Notes |
@@ -34,7 +34,8 @@ app/work/
   (explorer)/          → /work, /work/archive
   (categories)/        → /work/<category> hub pages (four categories)
   (thread)/            → /work/<category>/{projects|journal|products}/<slug>
-  category-page.jsx
+  hub-primitives.jsx    → ThreadTile, ThreadSection, CategoryBreadcrumb
+  category-page.jsx     → optional CategoryPage builder for simple hubs
   categories.js
   categories-data.js   → subsection registry
   manifest.json

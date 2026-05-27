@@ -7,7 +7,8 @@ products, writing, and experiments into one public website.
 
 Next.js + React in plain JavaScript (`.js` / `.jsx`) and plain CSS.
 
-- `app/` — routes; work uses **route groups** `(explorer)`, `(hubs)`, `(categories)`, `(thread)` — see [`app/work/README.md`](app/work/README.md)
+- `app/` — routes; work uses **route groups** `(explorer)`, `(categories)`, `(thread)` — see [`app/work/README.md`](app/work/README.md)
+- `data/` — CSV catalog source for photography & products — see [`data/README.md`](data/README.md)
 - `components/` — shared UI and bespoke work/product layouts
 - `app/site.js` — site name, navigation, hero images
 - `public_originals/` — source media (local)
@@ -24,19 +25,18 @@ See **`PROJECT_LAYOUT.md`** for a root map. **Adding work content:** [`app/work/
 | `/about` | `app/about/page.jsx` |
 | `/work` | `app/work/(explorer)/page.jsx` |
 | `/work/plotter` | `app/work/(categories)/plotter/page.jsx` |
-| `/work/plotter/projects/plotted-heads` | dynamic `(thread)/[category]/projects/[slug]/` + registry |
+| `/work/plotter/projects/plotted-heads` | dynamic `(thread)/[category]/projects/[slug]/` + content module |
 | `/shop` | `app/shop/page.jsx` |
 | `/journal` | `app/journal/page.jsx` |
 | `/contact` | `app/contact/page.jsx` |
 
 ## Adding a new project
 
-See [`app/work/ADDING.md`](app/work/ADDING.md). Short version:
+See [`app/work/ADDING.md`](app/work/ADDING.md) and [`EDITOR.md`](EDITOR.md). Short version:
 
-1. `categories-data.js` — add slug to a category
-2. `manifest.json` — card metadata and nested `href`
-3. `bodies/<slug>.js` + `registry.js` — prose
-4. Images in `public_originals/work/<category>/projects/<slug>/`
+- **Photography (bulk):** `data/photographs.csv` + `data/assets.csv` → `npm run content:sync`
+- **Projects / journal:** content module under `content/` + manifest (or `data/journal.csv`)
+- Images in `public_originals/` → `npm run assets:optimize`
 
 ## Editing the look
 

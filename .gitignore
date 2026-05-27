@@ -8,6 +8,10 @@ out/
 
 content/crypto/.probe-output/
 
+# Local asset catalog DB (optional; CSV is source of truth in repo)
+data/catalog.db
+data/assets-index.json
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

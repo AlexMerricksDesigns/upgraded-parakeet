@@ -16,7 +16,7 @@ export const page = {
       links: [
         { href: "/work/photography", label: "Photography overview" },
         {
-          href: "/work/photography/projects/brighton-by-bench",
+          href: "/work/photography/series/brighton-by-bench",
           label: "Brighton by Bench",
         },
       ],
@@ -83,7 +83,7 @@ export const page = {
       title: "Source collections",
       cards: [
         {
-          href: "/work/photography/projects/brighton-by-bench",
+          href: "/work/photography/series/brighton-by-bench",
           title: "Brighton by Bench",
           summary: "100-token collection — primary print source.",
           eyebrow: "Project",

@@ -8,6 +8,12 @@
 import journalManifest from "@/app/journal/manifest.json";
 import shopManifest from "@/app/shop/manifest.json";
 import workManifest from "@/app/work/manifest.json";
+import { attachPrintToTile } from "@/lib/print-metadata";
+import {
+  getPhotographyManifestForExplorer,
+  manifestToCapturedTiles,
+  manifestToSeriesTiles,
+} from "@/lib/photography-registry";
 import {
   categoryPath,
   journalPath,
@@ -43,6 +49,14 @@ function findCategoryIdForSlug(slug, field) {
   return undefined;
 }
 
+export function getCategoryForSeriesSlug(slug) {
+  return getWorkCategory(findCategoryIdForSlug(slug, "seriesSlugs"));
+}
+
+export function getCategoryForCapturedSlug(slug) {
+  return getWorkCategory(findCategoryIdForSlug(slug, "photoSlugs"));
+}
+
 export function getCategoryForWorkSlug(slug) {
   return getWorkCategory(findCategoryIdForSlug(slug, "slugs"));
 }
@@ -71,16 +85,31 @@ export function manifestToProjectTiles(categoryId, slugs) {
   return slugs
     .map((slug) => resolveWork(slug))
     .filter(Boolean)
-    .map((p) => ({
-      slug: p.slug,
-      title: p.title,
-      year: p.year,
-      summary: p.summary,
-      href: projectPath(categoryId, p.slug),
-      external: false,
-      image: manifestImage(p.image),
-      platform: "Project",
-    }));
+    .map((p) =>
+      attachPrintToTile(
+        {
+          slug: p.slug,
+          title: p.title,
+          year: p.year,
+          summary: p.summary,
+          href: projectPath(categoryId, p.slug),
+          external: false,
+          image: manifestImage(p.image),
+          platform: "Project",
+        },
+        p
+      )
+    );
+}
+
+function platformFromTags(tags) {
+  if (!tags?.length) return "Journal";
+  const joined = tags.join(" · ");
+  const onChain = ["Tezos", "objkt", "hic et nunc", "NFT", "crypto"];
+  if (tags.some((t) => onChain.some((o) => t.toLowerCase().includes(o.toLowerCase())))) {
+    return joined;
+  }
+  return "Journal";
 }
 
 export function journalToTiles(categoryId, slugs) {
@@ -94,8 +123,8 @@ export function journalToTiles(categoryId, slugs) {
       summary: p.summary,
       href: journalPath(categoryId, p.slug),
       external: false,
-      image: null,
-      platform: "Journal",
+      image: manifestImage(p.image),
+      platform: platformFromTags(p.tags),
     }));
 }
 
@@ -111,18 +140,26 @@ export function productToTiles(categoryId, slugs) {
       href: productPath(categoryId, p.slug),
       external: false,
       image: manifestImage(p.image),
-      platform: "Product",
+      platform: p.format ? `${p.format}${p.price ? ` · ${p.price}` : ""}` : "Product",
     }));
 }
 
 function subsectionToSection(categoryId, sub) {
   const groups = [];
+  const series = manifestToSeriesTiles(categoryId, sub.seriesSlugs ?? []);
+  const captured = manifestToCapturedTiles(categoryId, sub.photoSlugs ?? []);
   const projects = manifestToProjectTiles(categoryId, sub.slugs ?? []);
   const journals = journalToTiles(categoryId, sub.journalSlugs ?? []);
   const products = productToTiles(categoryId, sub.productSlugs ?? []);
 
+  if (series.length) {
+    groups.push({ id: "series", title: "Series", items: series });
+  }
+  if (captured.length) {
+    groups.push({ id: "captured-photos", title: "Highlights", items: captured });
+  }
   if (projects.length) {
-    groups.push({ id: "projects", title: "Projects", items: projects });
+    groups.push({ id: "projects", title: "Studio projects", items: projects });
   }
   if (journals.length) {
     groups.push({ id: "journal", title: "Journal", items: journals });
@@ -146,6 +183,14 @@ export function categorySubsectionSections(category) {
   return (category.subsections ?? [])
     .map((sub) => subsectionToSection(category.id, sub))
     .filter(Boolean);
+}
+
+/** Single subsection thread section by id (e.g. captured, published). */
+export function getCategorySubsection(category, subsectionId) {
+  return (
+    categorySubsectionSections(category).find((s) => s.id === subsectionId) ??
+    null
+  );
 }
 
 /** Thread sections for a category homepage (flat Projects / Journal / Products). */
@@ -244,7 +289,14 @@ export function getExplorerChronicleItems() {
   const items = [];
 
   for (const cat of WORK_CATEGORIES) {
-    const { slugs, journalSlugs, productSlugs } = flattenCategorySlugs(cat);
+    const { slugs, journalSlugs, productSlugs, seriesSlugs, photoSlugs } =
+      flattenCategorySlugs(cat);
+
+    if (cat.id === "photography") {
+      for (const entry of getPhotographyManifestForExplorer()) {
+        items.push(entry);
+      }
+    }
 
     for (const slug of slugs) {
       const work = resolveWork(slug);

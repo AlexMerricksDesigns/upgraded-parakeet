@@ -1,0 +1,66 @@
+{
+  "postcards": {
+    "layout": "productShelf",
+    "meta": {
+      "title": "Postcard Series (6-card set)",
+      "intro": "A small edition set pulled from derivations and detours in image-making."
+    },
+    "breadcrumb": {
+      "category": "plotter",
+      "label": "Postcard Series (6-card set)"
+    },
+    "category": "plotter",
+    "stock": null,
+    "variantSku": null,
+    "bundleItems": [],
+    "sections": []
+  },
+  "limited-prints": {
+    "layout": "productShelf",
+    "meta": {
+      "title": "Limited edition prints",
+      "intro": "Signed physical prints from key works — Brighton by Bench, archive selects, and atmospheric editions."
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "label": "Limited edition prints"
+    },
+    "category": "photography",
+    "stock": null,
+    "variantSku": null,
+    "bundleItems": [
+      {
+        "slug": "brighton-by-bench",
+        "kind": "series",
+        "label": "Brighton by Bench"
+      },
+      {
+        "slug": "lightworms-01",
+        "kind": "photograph",
+        "label": "Lightworms study I"
+      },
+      {
+        "slug": "lightworms-02",
+        "kind": "photograph",
+        "label": "Lightworms study II"
+      }
+    ],
+    "sections": []
+  },
+  "digital-editions": {
+    "layout": "productShelf",
+    "meta": {
+      "title": "Digital editions",
+      "intro": "Shop shelf for on-chain editions — portfolio on /work/photography; wallet and checkout later."
+    },
+    "breadcrumb": {
+      "category": "photography",
+      "label": "Digital editions"
+    },
+    "category": "photography",
+    "stock": null,
+    "variantSku": null,
+    "bundleItems": [],
+    "sections": []
+  }
+}
